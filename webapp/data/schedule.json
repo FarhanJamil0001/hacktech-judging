@@ -1,0 +1,97 @@
+{
+  "generatedAt": "2026-04-25T23:41:46.398Z",
+  "config": {
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "slotMinutes": 10,
+    "pitchMinutes": 5,
+    "eligibleStatuses": [
+      "Submitted (Gallery/Visible)"
+    ],
+    "numTables": null,
+    "randomSeed": "42"
+  },
+  "prizeCatalog": [
+    "Best \"Not so sexy\"",
+    "Best Creativity",
+    "Best Use of AI"
+  ],
+  "projects": [
+    {
+      "number": 1,
+      "title": "Athens",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1003390-athens",
+      "description": "## Inspiration\n\nWe were inspired by tron\n\n## What it does\n\nAthens turns code repositories into cities for intuitive visual project development.\n\n## How we built it\n\nWe built it using Claude Code and Codex.\n\n## Challenges we ran into\n\nVR mobile\n\n## Accomplishments that we're proud of\n\nVR mobile\n\n## What we learned\n\nWe dont need to actually script anymore\n\n## What's next for Athens\n\nMarkup to Metropolis",
+      "videoUrl": "https://www.youtube.com/watch?v=Rm8Isn0jP6E",
+      "tryItUrls": [],
+      "builtWith": [
+        "three.js",
+        "typescript",
+        "github",
+        "codex",
+        "claudecode"
+      ],
+      "university": "California State Polytechnic University - Pomona",
+      "optInPrizes": [
+        "Best Use of AI - Mac Mini with Apple M4 chip",
+        "Best Creativity - Logitech MX MASTER 4 Mice",
+        "Best \"Not so sexy\" - WHOOP 5.0 One Health and Fitness Tracker"
+      ],
+      "prizeNames": [
+        "Best Use of AI",
+        "Best Creativity",
+        "Best \"Not so sexy\""
+      ],
+      "table": 1,
+      "slotStart": "10:00",
+      "slotEnd": "10:10"
+    },
+    {
+      "number": 2,
+      "title": "Ghostscript",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1003398-ghostscript",
+      "description": "## Inspiration\n\n## What it does\n\n## How we built it\n\n## Challenges we ran into\n\n## Accomplishments that we're proud of\n\n## What we learned\n\n## What's next for Ghostscriptd",
+      "videoUrl": "https://www.youtube.com/watch?v=bJ-rWOyurjE",
+      "tryItUrls": [],
+      "builtWith": [
+        "javascript"
+      ],
+      "university": "",
+      "optInPrizes": [],
+      "prizeNames": [],
+      "table": 1,
+      "slotStart": "10:10",
+      "slotEnd": "10:20"
+    },
+    {
+      "number": 3,
+      "title": "Kleos Ai",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1002299-kleos-ai",
+      "description": "## Inspiration\n\nKleosAI was inspired by a simple observation: most students don’t overspend because they are careless, but because money leaks quietly through small, repeated decisions—subscriptions, digital payments, and impulse buys. Existing finance apps focus heavily on tracking and restriction, which often feels boring or overwhelming. We wanted to build something that understands _why_ people spend the way they do and helps them make better decisions before regret sets in.\n\n## What it does\n\nKleosAI is an intelligent financial companion that helps students understand, manage, and improve their spending behavior. It provides a real-time financial snapshot through metrics like a Stability Index, monthly surplus, and safety buffer. Features such as the Smart Purchase Validator assess whether a purchase is viable or risky, while AI-driven insights analyze spending patterns, track goals, detect subscriptions, and guide users toward healthier financial habits.\n\n## How we built it\n\nWe built KleosAI as a full-stack web application using modern frontend technologies for a clean, responsive interface and cloud-based services for authentication and data handling. The system combines manual and automated transaction tracking, AI-powered analysis for insights and recommendations, and dynamic visualizations to make financial data easy to understand. The focus throughout development was keeping the experience intuitive, fast, and student-friendly.\n\n## Challenges we ran into\n\nOne of the biggest challenges was balancing simplicity with meaningful insights—showing enough data to be useful without overwhelming users. Designing features like the purchase validator required careful thought to ensure recommendations felt supportive rather than restrictive. Integrating automated transaction inputs, handling multiple currencies, and maintaining a consistent user experience across features also required thoughtful iteration.\n\n## Accomplishments that we're proud of\n\nWe’re proud of building a product that goes beyond basic expense tracking and genuinely addresses financial behavior. Creating features like the Stability Index, Smart Purchase Validator, and AI mentor-style insights helped us turn abstract financial concepts into practical, everyday tools. We’re also proud of delivering a polished, cohesive UI that makes finance feel approachable rather than intimidating.\n\n## What we learned\n\nThrough building KleosAI, we learned how deeply behavior influences financial decision-making and how important thoughtful UX is in shaping user habits. We gained hands-on experience integrating AI-driven insights into real-world applications, managing state and data flow in a complex frontend, and collaborating effectively as a team under time constraints.\n\n## What’s next for KleosAI\n\nNext, we aim to enhance KleosAI with deeper personalization, smarter behavioral predictions, and expanded automation. Planned improvements include more advanced AI recommendations, better long-term habit tracking, richer visual analytics, and broader financial integrations. Our goal is to evolve KleosAI into a trusted, everyday financial coach for students worldwide.",
+      "videoUrl": "https://youtu.be/7IrDzYVHM6w",
+      "tryItUrls": [
+        "https://github.com/Hashtag-Fr/Kleos-AI",
+        "http://kleosai-delta.vercel.app"
+      ],
+      "builtWith": [
+        "firebase",
+        "react",
+        "typescript",
+        "talwind"
+      ],
+      "university": "",
+      "optInPrizes": [],
+      "prizeNames": [],
+      "table": 1,
+      "slotStart": "10:20",
+      "slotEnd": "10:30"
+    }
+  ],
+  "meta": {
+    "eligibleCount": 3,
+    "totalMinutes": 180,
+    "slotsPerTable": 18,
+    "minTables": 1,
+    "numTables": 1
+  }
+}

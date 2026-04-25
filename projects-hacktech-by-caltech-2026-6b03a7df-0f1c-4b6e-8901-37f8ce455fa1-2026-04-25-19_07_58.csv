@@ -1,0 +1,384 @@
+Project Title,Submission Url,Project Status,Judging Status,Highest Step Completed,Project Created At,About The Project,"""Try it out"" Links",Video Demo Link,Image Gallery URLs,Attached File S3 Key,Opt-In Prizes,Built With,Notes,Team Colleges/Universities,Additional Team Member Count,List The Domain Name Your Team Has Registered With .Tech During This Hackathon,Agreement,Prize Category Agreement,Which Of The Following Ai Tools Did You Use This Weekend?,Did You Implement A Generative Ai Model Or Api In Your Hack This Weekend?,"If You Are Submitting To The Best Use Of Gemma 4 Prize Category, Please Provide Your Project Number."
+Cortexia,"",Draft,Pending,Project overview,04/25/2026 00:00:28,"","",,"","","","",,University of California - Irvine,3,"","","","","",""
+Agent Arena,"",Draft,Pending,Project overview,04/25/2026 00:01:07,"","",,"","","","",,"Pomona College, University of California - Riverside",1,"","","","","",""
+Untitled,"",Draft,Pending,Manage team,04/25/2026 00:15:52,"","",,"","","","",,California Institute of Technology,3,"","","","","",""
+Project,"",Draft,Pending,Project overview,04/25/2026 00:28:52,"","",,"","","","",,California Institute of Technology,1,"","","","","",""
+Untitled,"",Draft,Pending,Manage team,04/25/2026 00:30:41,"","",,"","","","",,California Institute of Technology,1,"","","","","",""
+Kleos Ai,https://hacktech-by-caltech-2026.devpost.com/submissions/1002299-kleos-ai,Submitted (Gallery/Visible),Pending,Submit,04/25/2026 00:47:41,"## Inspiration
+
+KleosAI was inspired by a simple observation: most students don’t overspend because they are careless, but because money leaks quietly through small, repeated decisions—subscriptions, digital payments, and impulse buys. Existing finance apps focus heavily on tracking and restriction, which often feels boring or overwhelming. We wanted to build something that understands _why_ people spend the way they do and helps them make better decisions before regret sets in.
+
+## What it does
+
+KleosAI is an intelligent financial companion that helps students understand, manage, and improve their spending behavior. It provides a real-time financial snapshot through metrics like a Stability Index, monthly surplus, and safety buffer. Features such as the Smart Purchase Validator assess whether a purchase is viable or risky, while AI-driven insights analyze spending patterns, track goals, detect subscriptions, and guide users toward healthier financial habits.
+
+## How we built it
+
+We built KleosAI as a full-stack web application using modern frontend technologies for a clean, responsive interface and cloud-based services for authentication and data handling. The system combines manual and automated transaction tracking, AI-powered analysis for insights and recommendations, and dynamic visualizations to make financial data easy to understand. The focus throughout development was keeping the experience intuitive, fast, and student-friendly.
+
+## Challenges we ran into
+
+One of the biggest challenges was balancing simplicity with meaningful insights—showing enough data to be useful without overwhelming users. Designing features like the purchase validator required careful thought to ensure recommendations felt supportive rather than restrictive. Integrating automated transaction inputs, handling multiple currencies, and maintaining a consistent user experience across features also required thoughtful iteration.
+
+## Accomplishments that we're proud of
+
+We’re proud of building a product that goes beyond basic expense tracking and genuinely addresses financial behavior. Creating features like the Stability Index, Smart Purchase Validator, and AI mentor-style insights helped us turn abstract financial concepts into practical, everyday tools. We’re also proud of delivering a polished, cohesive UI that makes finance feel approachable rather than intimidating.
+
+## What we learned
+
+Through building KleosAI, we learned how deeply behavior influences financial decision-making and how important thoughtful UX is in shaping user habits. We gained hands-on experience integrating AI-driven insights into real-world applications, managing state and data flow in a complex frontend, and collaborating effectively as a team under time constraints.
+
+## What’s next for KleosAI
+
+Next, we aim to enhance KleosAI with deeper personalization, smarter behavioral predictions, and expanded automation. Planned improvements include more advanced AI recommendations, better long-term habit tracking, richer visual analytics, and broader financial integrations. Our goal is to evolve KleosAI into a trusted, everyday financial coach for students worldwide.","https://github.com/Hashtag-Fr/Kleos-AI, http://kleosai-delta.vercel.app",https://youtu.be/7IrDzYVHM6w,"","","","firebase, react, typescript, talwind",,"",0,"","","","","",""
+Untitled,"",Draft,Pending,Manage team,04/25/2026 00:55:23,"","",,"","","","",,"Kent Place, California Institute of Technology",1,"","","","","",""
+~Wavelength~,"",Draft,Pending,Project overview,04/25/2026 00:59:13,"## Inspiration
+
+Friendships can't be forged solely on the basis of MBTI test results or shared interests. Sharing similar demeanor, mannerisms, values, and more while meeting at the right place at the right time can make two establish a deep rapport, as if by magic.
+
+We want to create a platform for such friendships to be founded, where the most unlikely matches become the longest-lasting relationships. Using artificial intelligence to analyze a short conversation, we aim to analyze and utilize the traits that are overlooked in friendship-forming applications: the way we speak, the way we don't speak, and the traits we may not know we have.
+
+## What it does
+
+For everyone who is in need of a friend, or just wants to add some spice in their life by meeting someone new, ~Wavelength~ is a friendship matching app that unveils your true personality through a conversational environment to find others who will just _click_ with you on a deeper level. Based off the YC startup ""Dating Ring"" (Winter 2014), ~Wavelength~ uses artificial intelligence to analyze how humans think and interact in order to determine their next best friend.
+
+## How we built it
+
+## Challenges we ran into
+
+## Accomplishments that we're proud of
+
+## What we learned
+
+## What's next for ~Wavelength~
+
+\*\* Please note: None of the above was AI generated \*\*","",,"","","Best Use of AI - Mac Mini with Apple M4 chip, Best Creativity - Logitech MX MASTER 4 Mice, YC x HackTech - YC Interview, IFM x Hacktech - Best Use of K2 Think V2, Sideshift x HackTech - Cash Prize + Interview, [MLH] Best Use of Gemma 4 - Google Swag Kits, [MLH] Best Use of ElevenLabs - Wireless Earbuds","",,"San Jose State University, Evergreen Valley, Santa Clara University",2,"",yes,yes,"Anthropic, Gemma, and Gemini","",""
+TBD,"",Draft,Pending,Project overview,04/25/2026 01:04:43,"","",,"","","","",,University of Pennsylvania,1,"","","","","",""
+Untitled,"",Draft,Pending,Manage team,04/25/2026 01:11:43,"","",,"","","","",,Pasadena City College,3,"","","","","",""
+PiMatch,"",Draft,Pending,Project overview,04/25/2026 01:23:53,"","",,"","","","",,"Harvey Mudd College, Claremont McKenna College",3,"","","","","",""
+Untitled,"",Draft,Pending,Manage team,04/25/2026 01:53:53,"","",,"","","","",,California Institute of Technology,0,"","","","","",""
+a,"",Draft,Pending,Additional info,04/25/2026 02:18:00,"","",https://youtu.be/vKzsVmDwf1g?si=OBBJSX3kLHPGQraW,"","","",a,,California Institute of Technology,0,"","","","","",""
+Your Future Block,"",Draft,Pending,Project overview,04/25/2026 02:23:50,"# Your Future Block
+
+Your Future Block is an interactive climate-risk visualizer that helps people understand how climate hazards may affect their own communities over time. Instead of presenting climate change through abstract statistics, long reports, or difficult-to-read maps, Your Future Block lets users enter an address and explore projected climate risks around that block through a clear, visual, and local interface.
+
+## Inspiration
+
+As Caltech students passionate about scientific communication, we wanted to make climate risk easier for the public to understand.
+
+Climate risk is often discussed at a global or regional scale, but people experience it locally: in their homes, neighborhoods, commutes, schools, and workplaces. Many people underestimate how hazards like extreme heat, flooding, and wildfire could affect the places they live, work, and travel through.
+
+Your Future Block was inspired by a simple question:
+
+> What if anyone could type in an address and immediately see how climate risk around that block may change over time?
+
+## What It Does
+
+Your Future Block allows users to enter an address and explore projected climate risks for that area through a map-based interface.
+
+The app visualizes multiple climate-related hazards, including:
+
+- Extreme heat
+- Flooding
+- Wildfire exposure
+
+Users can move a future-year slider from the near future toward the end of the century to see how projected risk changes over time.
+
+Rather than presenting raw scientific data, the platform translates climate projections and public hazard datasets into:
+
+- Clear risk scores
+- Visual map layers
+- Plain-English explanations
+- Localized climate-risk insights
+
+The goal is not to predict the exact future of a single house, but to help people understand neighborhood-level climate exposure in a way that is accessible, transparent, and actionable.
+
+## Why It Matters
+
+Most people do not fully understand their vulnerability to climate-related risks until disaster strikes.
+
+We often hear about cities that could be underwater by the end of the century, increasing extreme weather events, and long-term global climate projections. But many people remain disconnected from how climate interactions will shape their own communities.
+
+Your Future Block closes that gap by making climate risk personal.
+
+## How We Built It
+
+Our approach to Design: We used Figma and Canva to design our mission, visualizations, key parts of the platform. We provided our designs to Lovable and utilized this to create a clean front end that embodied our mission and goals. We were able to extend our Lovable front-end code to connect it to our data rich backend.
+
+Our approach to Functionality: We built Your Future Block by combining public climate, hazard, and vulnerability datasets into a local risk-scoring pipeline.
+
+- Geocoding user-entered addresses into latitude, longitude, and local geographic regions
+- Using climate projection data to estimate future changes in heat and precipitation
+- Incorporating emissions scenarios to compare possible climate futures
+- Adding local physical risk layers such as flood zones, wildfire hazard areas, elevation, tree canopy, and impervious surface
+- Including social vulnerability indicators to better represent how climate hazards affect communities differently
+- Creating normalized risk scores for heat, flood, wildfire, and overall climate exposure
+- Building an interactive frontend with a map, risk cards, and a future-year slider
+
+## Key Features
+
+### Address-Based Search
+
+Users can enter an address and receive localized climate-risk information for that area.
+
+### Multi-Hazard Risk Scoring
+
+The platform shows risk across multiple hazards, including heat, flooding, and wildfire exposure.
+
+### Future-Year Slider
+
+Users can explore how projected climate risks may change over time.
+
+### Interactive Map Layers
+
+Map-based visualizations help users understand where risks are concentrated and how they relate to local geography.
+
+### Plain-English Explanations
+
+The app translates complex climate and hazard data into simple, understandable language.
+
+### Transparent Model Design
+
+Instead of acting like a black box, the system shows the main factors contributing to each risk score.
+
+## Climate Risk Scoring
+
+Your Future Block combines broad climate projections with higher-resolution local datasets to estimate neighborhood-level exposure.
+
+The model considers factors such as:
+
+- Projected heat change
+- Projected precipitation change
+- Flood-zone exposure
+- Wildfire hazard exposure
+- Elevation
+- Tree canopy
+- Impervious surface
+- Local land cover
+- Social vulnerability indicators
+
+These inputs are normalized into risk scores for:
+
+- Heat risk
+- Flood risk
+- Wildfire risk
+- Overall climate exposure
+
+## Challenges We Ran Into
+
+One major challenge was balancing scientific accuracy with hackathon scope.
+
+Climate models are powerful, but they are not designed to make exact predictions at the scale of a single house or block. We had to think carefully about how to communicate uncertainty while still making the experience useful and engaging.
+
+Another challenge was data resolution. Climate projection datasets are often coarse or extremely large, while users expect local, block-level results. To address this, we combined broader climate projections with higher-resolution local datasets like land cover, tree canopy, flood zones, and wildfire maps.
+
+We also had to make decisions about:
+
+- Which datasets to include
+- How to normalize different types of risk
+- How to weigh different hazards
+- How to avoid overstating what the model can predict
+
+## Accomplishments
+
+We are proud that Your Future Block turns complex climate data into something people can understand in seconds.
+
+We are especially proud of:
+
+- Creating a clear, address-based user experience
+- Designing a transparent climate-risk scoring system
+- Combining multiple types of climate hazards into one interface
+- Making scientific projections feel local and personal
+- Communicating uncertainty responsibly
+- Building a project that connects technical modeling with public education
+
+Most importantly, we built something that could help people better understand the future risks facing their own communities.
+
+## What We Learned
+
+We learned that climate-risk modeling is not one single model. It requires combining:
+
+- Climate projections
+- Emissions scenarios
+- Downscaling methods
+- Local physical hazard layers
+- Social vulnerability data
+
+We also learned that communication is just as important as computation. A technically accurate model is not useful if people cannot understand what it means.
+
+The way information is visualized, explained, and framed has a huge impact on whether users trust and act on it.
+
+Finally, we learned that local climate risk is deeply interdisciplinary. It involves:
+
+- Climate science
+- Geography
+- Infrastructure
+- Public health
+- Urban planning
+- Equity
+- Scientific communication
+
+## What's Next
+
+Next, we would like to expand Your Future Block beyond the prototype into a more robust local climate-risk platform.
+
+Future improvements include:
+
+- Supporting more cities and regions
+- Adding more detailed climate scenarios
+- Improving the scoring model with expert-reviewed weights
+- Incorporating evacuation routes
+- Adding cooling centers, hospitals, schools, and transit stops
+- Adding uncertainty ranges instead of single risk scores
+- Providing personalized preparedness recommendations
+- Making the tool useful for homeowners, renters, city planners, and community organizations
+
+## Long-Term Vision
+
+Our long-term vision is for Your Future Block to become a public-facing climate communication tool that helps people understand not just global climate change, but what it could mean for their own block.
+
+## Built By
+
+Caltech students passionate about climate science, public education, and accessible scientific communication.","",,"","","","",,"",0,"","","","","",""
+spatial intelligence revamped,"",Draft,Pending,Project overview,04/25/2026 02:47:40,"","",,"","","","",,University of Maryland - College Park,1,"","","","","",""
+Recruit,"",Draft,Pending,Project overview,04/25/2026 03:16:06,"","",,"","","","",,Univesity of British Columbia,0,"","","","","",""
+Kinetic X Studio,"",Draft,Pending,Project overview,04/25/2026 03:21:33,"","",,"","","","",,California State Polytechnic University - Pomona,0,"","","","","",""
+The Room,"",Draft,Pending,Project overview,04/25/2026 04:01:22,"","",,"","","","",,"University of California - Irvine, University of Southern California",1,"","","","","",""
+CallShield,"",Draft,Pending,Project overview,04/25/2026 04:06:20,"",https://github.com/Vonna9/CallShield.git,,"","","Best Use of AI - Mac Mini with Apple M4 chip, Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard, Best Creativity - Logitech MX MASTER 4 Mice, Best ""Not so sexy"" - WHOOP 5.0 One Health and Fitness Tracker, Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment, [MLH] Best Use of Gemma 4 - Google Swag Kits, [MLH] Best .Tech Domain Name - Desktop Microphone","javascript, react-native, react, python, kotlin",,"California State University - Los Angeles, University of Southern California, Harvey Mudd College, San Bernardino Valley College",3,"",yes,yes,"","",""
+WorldFork.tech,"",Draft,Pending,Project overview,04/25/2026 06:58:38,"","",,"","","","",,"University of California - Berkeley, University of Southern California",2,"","","","","",""
+DeepDive,"",Draft,Pending,Project overview,04/25/2026 14:12:56,"","",,"","","Best Use of AI - Mac Mini with Apple M4 chip, Best ""Not so sexy"" - WHOOP 5.0 One Health and Fitness Tracker","react, fastapi, mysql, python, javascript, google-cloud, gemma",,"University of California - Irvine, California State Polytechnic University - Pomona",1,"","","","","",""
+Nova AI,"",Draft,Pending,Project overview,04/25/2026 14:55:19,"","https://github.com/quachphu/Caltech-Hackathon-2026, https://novatechai.tech/, https://canva.link/r1t51is1wwdz4qe, https://drive.google.com/drive/folders/1NNDNxvJNhKSiK3H5IQRu4VVMeUfwyzjj?usp=sharing",,"","","","electron, node.js, google-gemini, gemini-live-api, gemini-vision, vosk, google-oauth2, gmail-api, google-calendar-api, osascript, xdotool, desktop-capturer, javascript",,California State University - Long Beach,0,"","","","","",""
+Untitled,"",Draft,Pending,Manage team,04/25/2026 15:30:56,"","",,"","","","",,California Polytechnic State University-San Luis Obispo,1,"","","","","",""
+Kandor,"",Draft,Pending,Additional info,04/25/2026 16:46:04,"## Inspiration
+
+We built Kandor because a lot of online harm starts quietly. Grooming, harassment, coercion, and personal information requests often show up inside everyday chat apps long before an adult notices. We wanted to create something that could act as an early warning layer and surface dangerous patterns in real time.
+
+## What it does
+
+Kandor is a browser-based safety assistant that scans message conversations and flags high-risk safety threats such as grooming, sexual content, harassment, personal information solicitation, and attempts to move a child off-platform. It extracts the active conversation, evaluates the risk level, highlights the most concerning messages, and shows a clear alert with recommended action.
+
+## How we built it
+
+We built Kandor as a Chrome/Chromium extension with a Python FastAPI backend. The extension injects a content script into supported messaging surfaces, extracts conversation text from the live page, and sends structured message data to the backend for analysis. The backend combines rule-based safety logic with model-assisted classification to assign a danger score, confidence score, flagged phrases, and flagged messages. We also built a popup dashboard and inline alert UI so the safety signal is visible immediately inside the browsing experience.
+
+## Challenges we ran into
+
+The hardest part was extracting the right message content from modern web apps, especially Instagram DMs. Those pages contain lots of UI chrome, navigation labels, and framework-generated text that can look like conversation data. We had to tighten our extraction logic so the system only analyzes real chat turns and not sidebar names, headers, or platform boilerplate. Another challenge was reducing false positives while still keeping the system sensitive to subtle grooming behavior.
+
+## Accomplishments that we're proud of
+
+We are proud that Kandor works end-to-end: it can scan a live conversation, detect multiple categories of risky behavior, explain why something was flagged, and present the result in a form that is understandable and actionable. We are also proud of improving the Instagram pipeline so noisy UI text does not get mistaken for dangerous messages.
+
+## What we learned
+
+We learned how difficult real-world content extraction is on dynamic social platforms, and how important it is to combine frontend parsing, backend normalization, and safety-specific reasoning. We also learned that good safety tooling needs explainability, not just a score.
+
+## What's next for Kandor
+
+Next, we want to expand platform coverage, improve model evaluation on nuanced conversations, add parent/guardian notification workflows, and build stronger moderation history and review tools. We also want to keep improving precision so Kandor becomes a dependable real-time safety layer for young users online.","",,"","","","javascript, chrome-extension-apis, python, fastapi, html, css, gemini, rule-based-nlp, chromium/edge",,"California State University - Los Angeles, California State Polytechnic University - Pomona",1,"","","","","",""
+Feesh,"",Draft,Pending,Manage team,04/25/2026 16:50:20,"","",,"","","Best Use of AI - Mac Mini with Apple M4 chip, Best Creativity - Logitech MX MASTER 4 Mice, Best ""Not so sexy"" - WHOOP 5.0 One Health and Fitness Tracker, YC x HackTech - YC Interview, Ironsite x HackTech - Cash Prize, IFM x Hacktech - Best Use of K2 Think V2, Sideshift x HackTech - Cash Prize + Interview, Listen Labs x HackTech: Simulate Humanity, [MLH] Best Use of Gemma 4 - Google Swag Kits, [MLH] Best Use of Vultr - Portable Screens, [MLH] Best .Tech Domain Name - Desktop Microphone","",,University of Southern California,3,"","","","","",""
+SoilVue,"",Draft,Pending,Additional info,04/25/2026 17:06:52,"","",,"","","","",,"University of California - Berkeley, Pasadena City College, Mission San Jose High School",2,"","","","","",""
+Kinova,"",Draft,Pending,Project overview,04/25/2026 17:24:48,"","",,"","","","",,Harvey Mudd College,3,"","","","","",""
+Farhans Project,https://hacktech-by-caltech-2026.devpost.com/submissions/1003310-farhans-project,Submitted (Pending),Pending,Submit,04/25/2026 17:37:20,"## Inspiration
+
+## What it does
+
+it do things
+
+## How we built it
+
+## Challenges we ran into
+
+## Accomplishments that we're proud of
+
+## What we learned
+
+## What's next for Farhans Project","",https://www.youtube.com/watch?v=Aq5WXmQQooo,"","","Best Use of AI - Mac Mini with Apple M4 chip, Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard, Best Creativity - Logitech MX MASTER 4 Mice, Best ""Not so sexy"" - WHOOP 5.0 One Health and Fitness Tracker, YC x HackTech - YC Interview, Ironsite x HackTech - Cash Prize, IFM x Hacktech - Best Use of K2 Think V2, Sideshift x HackTech - Cash Prize + Interview, Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment, Listen Labs x HackTech: Simulate Humanity, [MLH] Best Use of Gemma 4 - Google Swag Kits, [MLH] Best Use of ElevenLabs - Wireless Earbuds, [MLH] Best Use of Solana - Ledger Nano S Plus, [MLH] Best Use of Auth0 AI Agents - Wireless Headphones, [MLH] Best Use of Backboard - Tile Essentials Pack, [MLH] Best Use of Vultr - Portable Screens, [MLH] Best .Tech Domain Name - Desktop Microphone, Loveable x HackTech - Best use of Lovable",claude,,The University of Texas at Dallas,0,"",yes,yes,Vultr,n/a,""
+Untitled,"",Draft,Pending,Manage team,04/25/2026 17:45:40,"","",,"","","","",,"",0,"","","","","",""
+PhishTank,"",Draft,Pending,Additional info,04/25/2026 17:59:27,"## Inspiration
+
+We wanted to make the web safer without slowing users down. Phishing and malicious links are getting harder to detect, and existing tools are either too technical or too passive. We saw an opportunity to use AI to proactively analyze links and give users clear, real-time safety signals directly in their browser.
+
+## What it does
+
+PhishTank is a Chrome extension that uses an AI sandbox to analyze web pages before users interact with them. It scores links in real time and provides short explanations, helping users quickly understand whether a site is safe, suspicious, or dangerous.
+
+## How we built it
+
+We built a Chrome extension frontend with a clean UI for hover tooltips and a global control bubble. A backend pipeline runs links through an AI sandbox using Playwright to simulate interactions, then processes results with AI models to generate safety scores and explanations.
+
+## Challenges we ran into
+
+Handling dynamic websites reliably in a sandbox environment was difficult, especially with redirects and async content. We also had to balance performance with real-time analysis, ensuring the extension felt fast while waiting on backend results.
+
+## Accomplishments that we're proud of
+
+We created a seamless user experience where complex AI analysis is distilled into simple, actionable signals. The integration between sandboxing, AI scoring, and browser UI feels intuitive and fast.
+
+## What we learned
+
+We learned how to design around asynchronous systems, build robust scraping/sandbox pipelines, and translate complex model outputs into user-friendly insights. We also gained experience integrating AI into real-time user workflows.
+
+## What's next for PhishTank
+
+We plan to improve model accuracy, expand detection to more threat types, and optimize performance. We also want to add user feedback loops, better explanations, and broader browser support beyond Chrome.",https://github.com/ClaraY05/hacktech/tree/main,https://www.youtube.com/watch?v=dQw4w9WgXcQ,"https://d112y698adiu2z.cloudfront.net/photos/production/solution_photos/004/606/918/datas/xlarge.png, https://d112y698adiu2z.cloudfront.net/photos/production/solution_photos/004/606/919/datas/xlarge.png, https://d112y698adiu2z.cloudfront.net/photos/production/solution_photos/004/606/920/datas/xlarge.png","","Best Use of AI - Mac Mini with Apple M4 chip, Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard, IFM x Hacktech - Best Use of K2 Think V2, Sideshift x HackTech - Cash Prize + Interview, Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment, [MLH] Best Use of Gemma 4 - Google Swag Kits, [MLH] Best Use of Auth0 AI Agents - Wireless Headphones","k2thinkv2, gemma4, chrome, playwright, podman, docker, gvisor",,University of California - Los Angeles,3,"",yes,yes,"OpenAI, Anthropic, and Gemma","Yes, we used k2v2's advanced AI reasoning capabilities and large memory capacity to serve as the brain of the operation, making decisions regarding whether web behavior in the sandbox was logical and reporting to the user.",""
+Untitled,"",Draft,Pending,Manage team,04/25/2026 17:59:32,"","",,"","","","",,California State University - Long Beach,0,"","","","","",""
+Untitled,"",Draft,Pending,Manage team,04/25/2026 18:00:07,"","",,"","","","",,University of California - San Diego,0,"","","","","",""
+RunBook,"",Draft,Pending,Manage team,04/25/2026 18:01:25,"","",,"","","Best Use of AI - Mac Mini with Apple M4 chip, Best Creativity - Logitech MX MASTER 4 Mice, Best ""Not so sexy"" - WHOOP 5.0 One Health and Fitness Tracker, YC x HackTech - YC Interview, Sideshift x HackTech - Cash Prize + Interview, Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment, [MLH] Best Use of ElevenLabs - Wireless Earbuds","",,"University of Waterloo, California Polytechnic State University-San Luis Obispo",1,"",yes,yes,"OpenAI, Anthropic, and Gemini","",""
+SyncSense,"",Draft,Pending,Project overview,04/25/2026 18:03:47,"","",https://www.youtube.com/watch?v=CTUkmDfIOUM,"","","",revit,,River Hill High School,1,"","","","","",""
+Athens,https://hacktech-by-caltech-2026.devpost.com/submissions/1003390-athens,Submitted (Gallery/Visible),Pending,Submit,04/25/2026 18:16:11,"## Inspiration
+
+We were inspired by tron
+
+## What it does
+
+Athens turns code repositories into cities for intuitive visual project development.
+
+## How we built it
+
+We built it using Claude Code and Codex.
+
+## Challenges we ran into
+
+VR mobile
+
+## Accomplishments that we're proud of
+
+VR mobile
+
+## What we learned
+
+We dont need to actually script anymore
+
+## What's next for Athens
+
+Markup to Metropolis","",https://www.youtube.com/watch?v=Rm8Isn0jP6E,"","","Best Use of AI - Mac Mini with Apple M4 chip, Best Creativity - Logitech MX MASTER 4 Mice, Best ""Not so sexy"" - WHOOP 5.0 One Health and Fitness Tracker","three.js, typescript, github, codex, claudecode",,California State Polytechnic University - Pomona,1,"",yes,yes,OpenAI and Anthropic,"Yes, we used it to summarize and edit codeblocks in Athens without touching the text itself.",""
+Locus Space,"",Draft,Pending,Project overview,04/25/2026 18:16:11,"","",,"","","","",,Peking University,1,"","","","","",""
+Ghostscript,https://hacktech-by-caltech-2026.devpost.com/submissions/1003398-ghostscript,Submitted (Gallery/Visible),Pending,Submit,04/25/2026 18:21:13,"## Inspiration
+
+## What it does
+
+## How we built it
+
+## Challenges we ran into
+
+## Accomplishments that we're proud of
+
+## What we learned
+
+## What's next for Ghostscriptd","",https://www.youtube.com/watch?v=bJ-rWOyurjE,"","","",javascript,,"",2,"",yes,yes,OpenAI,Mambabyte,""
+Ephemeral,"",Draft,Pending,Project overview,04/25/2026 18:33:52,"","",,"","","","",,University of California - Santa Barbara,0,"","","","","",""
+Iron World,"",Draft,Pending,Project overview,04/25/2026 18:46:53,"## Inspiration
+
+## What it does
+
+## How we built it
+
+## Challenges we ran into
+
+## Accomplishments that we're proud of
+
+## What we learned
+
+## What's next for Iron World","",,"","","","",,University of Florida,1,"","","","","",""
+Untitled,"",Draft,Pending,Manage team,04/25/2026 18:47:06,"","",,"","","","",,University of Washington,2,"","","","","",""
