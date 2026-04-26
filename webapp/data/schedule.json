@@ -1,15 +1,16 @@
 {
-  "generatedAt": "2026-04-26T00:31:52.815Z",
+  "generatedAt": "2026-04-26T00:34:40.079Z",
   "config": {
     "startTime": "10:00",
-    "endTime": "13:00",
+    "endTime": "12:00",
     "slotMinutes": 10,
     "pitchMinutes": 5,
     "eligibleStatuses": [
       "Submitted (Gallery/Visible)"
     ],
     "numTables": null,
-    "randomSeed": "fake-60"
+    "maxProjectsPerTable": 6,
+    "randomSeed": "42"
   },
   "prizeCatalog": [
     "[MLH] Best .Tech Domain Name",
@@ -34,29 +35,29 @@
   "projects": [
     {
       "number": 1,
-      "title": "Lunar Relay",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099016-fake",
-      "description": "## Inspiration\nWe wanted to improve sustainability for students.\n\n## What it does\nA demo for table scheduling — project #16.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
+      "title": "Neon Ledger",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099060-fake",
+      "description": "## Inspiration\nWe wanted to improve health literacy for students.\n\n## What it does\nA demo for table scheduling — project #60.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "tryItUrls": [
-        "https://example.com/demo-16"
+        "https://example.com/demo-60"
       ],
       "builtWith": [
-        "vue",
-        "nuxt",
-        "planetscale",
-        "clerk"
+        "next.js",
+        "typescript",
+        "vercel",
+        "tailwind"
       ],
-      "university": "Waterloo",
+      "university": "UT Austin",
       "optInPrizes": [
-        "[MLH] Best Use of Vultr - Portable Screens",
-        "Best \"Not so sexy\" - WHOOP 5.0 One Health and Fitness Tracker",
-        "Listen Labs x HackTech: Simulate Humanity"
+        "Ironsite x HackTech - Cash Prize",
+        "[MLH] Best Use of ElevenLabs - Wireless Earbuds",
+        "Loveable x HackTech - Best use of Lovable"
       ],
       "prizeNames": [
-        "[MLH] Best Use of Vultr",
-        "Best \"Not so sexy\"",
-        "Listen Labs x HackTech: Simulate Humanity"
+        "Ironsite x HackTech",
+        "[MLH] Best Use of ElevenLabs",
+        "Loveable x HackTech"
       ],
       "table": 1,
       "slotStart": "10:00",
@@ -64,37 +65,9 @@
     },
     {
       "number": 2,
-      "title": "Silent Pulse",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099019-fake",
-      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #19.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [],
-      "builtWith": [
-        "react",
-        "node.js",
-        "supabase",
-        "tailwind"
-      ],
-      "university": "MIT",
-      "optInPrizes": [
-        "Best Use of AI - Mac Mini with Apple M4 chip",
-        "IFM x Hacktech - Best Use of K2 Think V2",
-        "[MLH] Best Use of Solana - Ledger Nano S Plus"
-      ],
-      "prizeNames": [
-        "Best Use of AI",
-        "IFM x Hacktech",
-        "[MLH] Best Use of Solana"
-      ],
-      "table": 2,
-      "slotStart": "10:00",
-      "slotEnd": "10:10"
-    },
-    {
-      "number": 3,
-      "title": "Vector Relay",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099041-fake",
-      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #41.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "title": "Ionic Pulse",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099059-fake",
+      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #59.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
       "videoUrl": "",
       "tryItUrls": [],
       "builtWith": [
@@ -114,15 +87,42 @@
         "[MLH] Best Use of Gemma 4",
         "[MLH] Best .Tech Domain Name"
       ],
+      "table": 2,
+      "slotStart": "10:00",
+      "slotEnd": "10:10"
+    },
+    {
+      "number": 3,
+      "title": "Nimbus Pulse",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099009-fake",
+      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #9.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "tryItUrls": [],
+      "builtWith": [
+        "flutter",
+        "firebase",
+        "mapbox"
+      ],
+      "university": "Caltech",
+      "optInPrizes": [
+        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment",
+        "[MLH] Best Use of Backboard - Tile Essentials Pack",
+        "Best Creativity - Logitech MX MASTER 4 Mice"
+      ],
+      "prizeNames": [
+        "Palohouse x HackTech",
+        "[MLH] Best Use of Backboard",
+        "Best Creativity"
+      ],
       "table": 3,
       "slotStart": "10:00",
       "slotEnd": "10:10"
     },
     {
       "number": 4,
-      "title": "Ionic Pulse",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099029-fake",
-      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #29.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "title": "Civic Ledger",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099005-fake",
+      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #5.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
       "videoUrl": "",
       "tryItUrls": [],
       "builtWith": [
@@ -131,16 +131,16 @@
         "turso",
         "drizzle"
       ],
-      "university": "UC Berkeley",
+      "university": "Georgia Tech",
       "optInPrizes": [
+        "YC x HackTech - YC Interview",
         "[MLH] Best Use of Gemma 4 - Google Swag Kits",
-        "[MLH] Best .Tech Domain Name - Desktop Microphone",
-        "YC x HackTech - YC Interview"
+        "[MLH] Best .Tech Domain Name - Desktop Microphone"
       ],
       "prizeNames": [
+        "YC x HackTech",
         "[MLH] Best Use of Gemma 4",
-        "[MLH] Best .Tech Domain Name",
-        "YC x HackTech"
+        "[MLH] Best .Tech Domain Name"
       ],
       "table": 4,
       "slotStart": "10:00",
@@ -148,37 +148,9 @@
     },
     {
       "number": 5,
-      "title": "Silent Pulse",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099049-fake",
-      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #49.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [],
-      "builtWith": [
-        "react",
-        "node.js",
-        "supabase",
-        "tailwind"
-      ],
-      "university": "Stanford",
-      "optInPrizes": [
-        "[MLH] Best Use of Solana - Ledger Nano S Plus",
-        "Best Use of AI - Mac Mini with Apple M4 chip",
-        "IFM x Hacktech - Best Use of K2 Think V2"
-      ],
-      "prizeNames": [
-        "[MLH] Best Use of Solana",
-        "Best Use of AI",
-        "IFM x Hacktech"
-      ],
-      "table": 1,
-      "slotStart": "10:10",
-      "slotEnd": "10:20"
-    },
-    {
-      "number": 6,
-      "title": "Quantum Cortex",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099017-fake",
-      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #17.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "title": "Civic Ledger",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099035-fake",
+      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #35.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
       "videoUrl": "",
       "tryItUrls": [],
       "builtWith": [
@@ -198,39 +170,12 @@
         "YC x HackTech",
         "[MLH] Best Use of Gemma 4"
       ],
-      "table": 2,
-      "slotStart": "10:10",
-      "slotEnd": "10:20"
+      "table": 5,
+      "slotStart": "10:00",
+      "slotEnd": "10:10"
     },
     {
-      "number": 7,
-      "title": "Swift Vessel",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099033-fake",
-      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #33.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "tryItUrls": [],
-      "builtWith": [
-        "flutter",
-        "firebase",
-        "mapbox"
-      ],
-      "university": "UT Austin",
-      "optInPrizes": [
-        "[MLH] Best Use of Backboard - Tile Essentials Pack",
-        "Best Creativity - Logitech MX MASTER 4 Mice",
-        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment"
-      ],
-      "prizeNames": [
-        "[MLH] Best Use of Backboard",
-        "Best Creativity",
-        "Palohouse x HackTech"
-      ],
-      "table": 3,
-      "slotStart": "10:10",
-      "slotEnd": "10:20"
-    },
-    {
-      "number": 8,
+      "number": 6,
       "title": "Quantum Cortex",
       "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099047-fake",
       "description": "## Inspiration\nWe wanted to improve local communities for students.\n\n## What it does\nA demo for table scheduling — project #47.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
@@ -253,70 +198,100 @@
         "[MLH] Best .Tech Domain Name",
         "YC x HackTech"
       ],
-      "table": 4,
-      "slotStart": "10:10",
-      "slotEnd": "10:20"
+      "table": 6,
+      "slotStart": "10:00",
+      "slotEnd": "10:10"
     },
     {
-      "number": 9,
-      "title": "Amber Vessel",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099023-fake",
-      "description": "## Inspiration\nWe wanted to improve local communities for students.\n\n## What it does\nA demo for table scheduling — project #23.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "number": 7,
+      "title": "Prism Ledger",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099040-fake",
+      "description": "## Inspiration\nWe wanted to improve sustainability for students.\n\n## What it does\nA demo for table scheduling — project #40.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [
+        "https://example.com/demo-40"
+      ],
+      "builtWith": [
+        "vue",
+        "nuxt",
+        "planetscale",
+        "clerk"
+      ],
+      "university": "Stanford",
+      "optInPrizes": [
+        "Best \"Not so sexy\" - WHOOP 5.0 One Health and Fitness Tracker",
+        "Listen Labs x HackTech: Simulate Humanity",
+        "[MLH] Best Use of Vultr - Portable Screens"
+      ],
+      "prizeNames": [
+        "Best \"Not so sexy\"",
+        "Listen Labs x HackTech: Simulate Humanity",
+        "[MLH] Best Use of Vultr"
+      ],
+      "table": 7,
+      "slotStart": "10:00",
+      "slotEnd": "10:10"
+    },
+    {
+      "number": 8,
+      "title": "Silent Pulse",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099049-fake",
+      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #49.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
       "videoUrl": "",
       "tryItUrls": [],
       "builtWith": [
-        "svelte",
-        "deno",
-        "turso",
-        "drizzle"
+        "react",
+        "node.js",
+        "supabase",
+        "tailwind"
       ],
-      "university": "Georgia Tech",
+      "university": "Stanford",
       "optInPrizes": [
-        "YC x HackTech - YC Interview",
-        "[MLH] Best Use of Gemma 4 - Google Swag Kits",
-        "[MLH] Best .Tech Domain Name - Desktop Microphone"
+        "[MLH] Best Use of Solana - Ledger Nano S Plus",
+        "Best Use of AI - Mac Mini with Apple M4 chip",
+        "IFM x Hacktech - Best Use of K2 Think V2"
       ],
       "prizeNames": [
-        "YC x HackTech",
-        "[MLH] Best Use of Gemma 4",
-        "[MLH] Best .Tech Domain Name"
+        "[MLH] Best Use of Solana",
+        "Best Use of AI",
+        "IFM x Hacktech"
       ],
-      "table": 1,
-      "slotStart": "10:20",
-      "slotEnd": "10:30"
+      "table": 8,
+      "slotStart": "10:00",
+      "slotEnd": "10:10"
+    },
+    {
+      "number": 9,
+      "title": "Vector Relay",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099056-fake",
+      "description": "## Inspiration\nWe wanted to improve sustainability for students.\n\n## What it does\nA demo for table scheduling — project #56.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [
+        "https://example.com/demo-56"
+      ],
+      "builtWith": [
+        "python",
+        "fastapi",
+        "react",
+        "postgresql"
+      ],
+      "university": "UC Berkeley",
+      "optInPrizes": [
+        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
+        "Sideshift x HackTech - Cash Prize + Interview",
+        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones"
+      ],
+      "prizeNames": [
+        "Cybersecurity/Safety",
+        "Sideshift x HackTech",
+        "[MLH] Best Use of Auth0 AI Agents"
+      ],
+      "table": 9,
+      "slotStart": "10:00",
+      "slotEnd": "10:10"
     },
     {
       "number": 10,
-      "title": "Chrono Cortex",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099012-fake",
-      "description": "## Inspiration\nWe wanted to improve health literacy for students.\n\n## What it does\nA demo for table scheduling — project #12.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "tryItUrls": [
-        "https://example.com/demo-12"
-      ],
-      "builtWith": [
-        "next.js",
-        "typescript",
-        "vercel",
-        "tailwind"
-      ],
-      "university": "UCLA",
-      "optInPrizes": [
-        "[MLH] Best Use of ElevenLabs - Wireless Earbuds",
-        "Loveable x HackTech - Best use of Lovable",
-        "Ironsite x HackTech - Cash Prize"
-      ],
-      "prizeNames": [
-        "[MLH] Best Use of ElevenLabs",
-        "Loveable x HackTech",
-        "Ironsite x HackTech"
-      ],
-      "table": 2,
-      "slotStart": "10:20",
-      "slotEnd": "10:30"
-    },
-    {
-      "number": 11,
       "title": "Sonic Vessel",
       "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099058-fake",
       "description": "## Inspiration\nWe wanted to improve accessibility for students.\n\n## What it does\nA demo for table scheduling — project #58.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
@@ -341,215 +316,18 @@
         "Listen Labs x HackTech: Simulate Humanity",
         "[MLH] Best Use of Vultr"
       ],
-      "table": 3,
-      "slotStart": "10:20",
-      "slotEnd": "10:30"
+      "table": 10,
+      "slotStart": "10:00",
+      "slotEnd": "10:10"
     },
     {
-      "number": 12,
-      "title": "Fuzzy Relay",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099051-fake",
-      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #51.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "tryItUrls": [],
-      "builtWith": [
-        "flutter",
-        "firebase",
-        "mapbox"
-      ],
-      "university": "UT Austin",
-      "optInPrizes": [
-        "[MLH] Best Use of Backboard - Tile Essentials Pack",
-        "Best Creativity - Logitech MX MASTER 4 Mice",
-        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment"
-      ],
-      "prizeNames": [
-        "[MLH] Best Use of Backboard",
-        "Best Creativity",
-        "Palohouse x HackTech"
-      ],
-      "table": 4,
-      "slotStart": "10:20",
-      "slotEnd": "10:30"
-    },
-    {
-      "number": 13,
-      "title": "Ionic Pulse",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099044-fake",
-      "description": "## Inspiration\nWe wanted to improve health literacy for students.\n\n## What it does\nA demo for table scheduling — project #44.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [
-        "https://example.com/demo-44"
-      ],
-      "builtWith": [
-        "python",
-        "fastapi",
-        "react",
-        "postgresql"
-      ],
-      "university": "Carnegie Mellon",
-      "optInPrizes": [
-        "Sideshift x HackTech - Cash Prize + Interview",
-        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones",
-        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard"
-      ],
-      "prizeNames": [
-        "Sideshift x HackTech",
-        "[MLH] Best Use of Auth0 AI Agents",
-        "Cybersecurity/Safety"
-      ],
-      "table": 1,
-      "slotStart": "10:30",
-      "slotEnd": "10:40"
-    },
-    {
-      "number": 14,
-      "title": "Neon Ledger",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099015-fake",
-      "description": "## Inspiration\nWe wanted to improve local communities for students.\n\n## What it does\nA demo for table scheduling — project #15.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "tryItUrls": [],
-      "builtWith": [
-        "flutter",
-        "firebase",
-        "mapbox"
-      ],
-      "university": "UT Austin",
-      "optInPrizes": [
-        "[MLH] Best Use of Backboard - Tile Essentials Pack",
-        "Best Creativity - Logitech MX MASTER 4 Mice",
-        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment"
-      ],
-      "prizeNames": [
-        "[MLH] Best Use of Backboard",
-        "Best Creativity",
-        "Palohouse x HackTech"
-      ],
-      "table": 2,
-      "slotStart": "10:30",
-      "slotEnd": "10:40"
-    },
-    {
-      "number": 15,
-      "title": "Civic Ledger",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099005-fake",
-      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #5.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [],
-      "builtWith": [
-        "svelte",
-        "deno",
-        "turso",
-        "drizzle"
-      ],
-      "university": "Georgia Tech",
-      "optInPrizes": [
-        "YC x HackTech - YC Interview",
-        "[MLH] Best Use of Gemma 4 - Google Swag Kits",
-        "[MLH] Best .Tech Domain Name - Desktop Microphone"
-      ],
-      "prizeNames": [
-        "YC x HackTech",
-        "[MLH] Best Use of Gemma 4",
-        "[MLH] Best .Tech Domain Name"
-      ],
-      "table": 3,
-      "slotStart": "10:30",
-      "slotEnd": "10:40"
-    },
-    {
-      "number": 16,
-      "title": "Swift Vessel",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099003-fake",
-      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #3.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "tryItUrls": [],
-      "builtWith": [
-        "flutter",
-        "firebase",
-        "mapbox"
-      ],
-      "university": "UCLA",
-      "optInPrizes": [
-        "Best Creativity - Logitech MX MASTER 4 Mice",
-        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment",
-        "[MLH] Best Use of Backboard - Tile Essentials Pack"
-      ],
-      "prizeNames": [
-        "Best Creativity",
-        "Palohouse x HackTech",
-        "[MLH] Best Use of Backboard"
-      ],
-      "table": 4,
-      "slotStart": "10:30",
-      "slotEnd": "10:40"
-    },
-    {
-      "number": 17,
-      "title": "Hyper Cortex",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099022-fake",
-      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #22.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [
-        "https://example.com/demo-22"
-      ],
-      "builtWith": [
-        "vue",
-        "nuxt",
-        "planetscale",
-        "clerk"
-      ],
-      "university": "Stanford",
-      "optInPrizes": [
-        "Best \"Not so sexy\" - WHOOP 5.0 One Health and Fitness Tracker",
-        "Listen Labs x HackTech: Simulate Humanity",
-        "[MLH] Best Use of Vultr - Portable Screens"
-      ],
-      "prizeNames": [
-        "Best \"Not so sexy\"",
-        "Listen Labs x HackTech: Simulate Humanity",
-        "[MLH] Best Use of Vultr"
-      ],
-      "table": 1,
-      "slotStart": "10:40",
-      "slotEnd": "10:50"
-    },
-    {
-      "number": 18,
-      "title": "Sonic Vessel",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099013-fake",
-      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #13.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [],
-      "builtWith": [
-        "react",
-        "node.js",
-        "supabase",
-        "tailwind"
-      ],
-      "university": "Stanford",
-      "optInPrizes": [
-        "[MLH] Best Use of Solana - Ledger Nano S Plus",
-        "Best Use of AI - Mac Mini with Apple M4 chip",
-        "IFM x Hacktech - Best Use of K2 Think V2"
-      ],
-      "prizeNames": [
-        "[MLH] Best Use of Solana",
-        "Best Use of AI",
-        "IFM x Hacktech"
-      ],
-      "table": 2,
-      "slotStart": "10:40",
-      "slotEnd": "10:50"
-    },
-    {
-      "number": 19,
-      "title": "Nimbus Pulse",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099054-fake",
-      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #54.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "number": 11,
+      "title": "Chrono Cortex",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099012-fake",
+      "description": "## Inspiration\nWe wanted to improve health literacy for students.\n\n## What it does\nA demo for table scheduling — project #12.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
       "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "tryItUrls": [
-        "https://example.com/demo-54"
+        "https://example.com/demo-12"
       ],
       "builtWith": [
         "next.js",
@@ -557,26 +335,26 @@
         "vercel",
         "tailwind"
       ],
-      "university": "Caltech",
+      "university": "UCLA",
       "optInPrizes": [
+        "[MLH] Best Use of ElevenLabs - Wireless Earbuds",
         "Loveable x HackTech - Best use of Lovable",
-        "Ironsite x HackTech - Cash Prize",
-        "[MLH] Best Use of ElevenLabs - Wireless Earbuds"
+        "Ironsite x HackTech - Cash Prize"
       ],
       "prizeNames": [
+        "[MLH] Best Use of ElevenLabs",
         "Loveable x HackTech",
-        "Ironsite x HackTech",
-        "[MLH] Best Use of ElevenLabs"
+        "Ironsite x HackTech"
       ],
-      "table": 3,
-      "slotStart": "10:40",
-      "slotEnd": "10:50"
+      "table": 1,
+      "slotStart": "10:10",
+      "slotEnd": "10:20"
     },
     {
-      "number": 20,
-      "title": "Chrono Cortex",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099027-fake",
-      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #27.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "number": 12,
+      "title": "Neon Ledger",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099045-fake",
+      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #45.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
       "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "tryItUrls": [],
       "builtWith": [
@@ -595,40 +373,12 @@
         "[MLH] Best Use of Backboard",
         "Best Creativity"
       ],
-      "table": 4,
-      "slotStart": "10:40",
-      "slotEnd": "10:50"
+      "table": 2,
+      "slotStart": "10:10",
+      "slotEnd": "10:20"
     },
     {
-      "number": 21,
-      "title": "Prism Ledger",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099025-fake",
-      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #25.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [],
-      "builtWith": [
-        "react",
-        "node.js",
-        "supabase",
-        "tailwind"
-      ],
-      "university": "Waterloo",
-      "optInPrizes": [
-        "IFM x Hacktech - Best Use of K2 Think V2",
-        "[MLH] Best Use of Solana - Ledger Nano S Plus",
-        "Best Use of AI - Mac Mini with Apple M4 chip"
-      ],
-      "prizeNames": [
-        "IFM x Hacktech",
-        "[MLH] Best Use of Solana",
-        "Best Use of AI"
-      ],
-      "table": 1,
-      "slotStart": "10:50",
-      "slotEnd": "11:00"
-    },
-    {
-      "number": 22,
+      "number": 13,
       "title": "Chrono Cortex",
       "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099042-fake",
       "description": "## Inspiration\nWe wanted to improve accessibility for students.\n\n## What it does\nA demo for table scheduling — project #42.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
@@ -653,12 +403,42 @@
         "[MLH] Best Use of ElevenLabs",
         "Loveable x HackTech"
       ],
-      "table": 2,
-      "slotStart": "10:50",
-      "slotEnd": "11:00"
+      "table": 3,
+      "slotStart": "10:10",
+      "slotEnd": "10:20"
     },
     {
-      "number": 23,
+      "number": 14,
+      "title": "Lunar Relay",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099046-fake",
+      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #46.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [
+        "https://example.com/demo-46"
+      ],
+      "builtWith": [
+        "vue",
+        "nuxt",
+        "planetscale",
+        "clerk"
+      ],
+      "university": "MIT",
+      "optInPrizes": [
+        "Listen Labs x HackTech: Simulate Humanity",
+        "[MLH] Best Use of Vultr - Portable Screens",
+        "Best \"Not so sexy\" - WHOOP 5.0 One Health and Fitness Tracker"
+      ],
+      "prizeNames": [
+        "Listen Labs x HackTech: Simulate Humanity",
+        "[MLH] Best Use of Vultr",
+        "Best \"Not so sexy\""
+      ],
+      "table": 4,
+      "slotStart": "10:10",
+      "slotEnd": "10:20"
+    },
+    {
+      "number": 15,
       "title": "Silent Pulse",
       "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099004-fake",
       "description": "## Inspiration\nWe wanted to improve health literacy for students.\n\n## What it does\nA demo for table scheduling — project #4.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
@@ -683,15 +463,163 @@
         "Listen Labs x HackTech: Simulate Humanity",
         "[MLH] Best Use of Vultr"
       ],
-      "table": 3,
-      "slotStart": "10:50",
-      "slotEnd": "11:00"
+      "table": 5,
+      "slotStart": "10:10",
+      "slotEnd": "10:20"
     },
     {
-      "number": 24,
+      "number": 16,
       "title": "Nimbus Pulse",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099009-fake",
-      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #9.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099054-fake",
+      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #54.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "tryItUrls": [
+        "https://example.com/demo-54"
+      ],
+      "builtWith": [
+        "next.js",
+        "typescript",
+        "vercel",
+        "tailwind"
+      ],
+      "university": "Caltech",
+      "optInPrizes": [
+        "Loveable x HackTech - Best use of Lovable",
+        "Ironsite x HackTech - Cash Prize",
+        "[MLH] Best Use of ElevenLabs - Wireless Earbuds"
+      ],
+      "prizeNames": [
+        "Loveable x HackTech",
+        "Ironsite x HackTech",
+        "[MLH] Best Use of ElevenLabs"
+      ],
+      "table": 6,
+      "slotStart": "10:10",
+      "slotEnd": "10:20"
+    },
+    {
+      "number": 17,
+      "title": "Fuzzy Relay",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099006-fake",
+      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #6.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "tryItUrls": [
+        "https://example.com/demo-6"
+      ],
+      "builtWith": [
+        "next.js",
+        "typescript",
+        "vercel",
+        "tailwind"
+      ],
+      "university": "UT Austin",
+      "optInPrizes": [
+        "Ironsite x HackTech - Cash Prize",
+        "[MLH] Best Use of ElevenLabs - Wireless Earbuds",
+        "Loveable x HackTech - Best use of Lovable"
+      ],
+      "prizeNames": [
+        "Ironsite x HackTech",
+        "[MLH] Best Use of ElevenLabs",
+        "Loveable x HackTech"
+      ],
+      "table": 7,
+      "slotStart": "10:10",
+      "slotEnd": "10:20"
+    },
+    {
+      "number": 18,
+      "title": "Quantum Cortex",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099017-fake",
+      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #17.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [],
+      "builtWith": [
+        "svelte",
+        "deno",
+        "turso",
+        "drizzle"
+      ],
+      "university": "Carnegie Mellon",
+      "optInPrizes": [
+        "[MLH] Best .Tech Domain Name - Desktop Microphone",
+        "YC x HackTech - YC Interview",
+        "[MLH] Best Use of Gemma 4 - Google Swag Kits"
+      ],
+      "prizeNames": [
+        "[MLH] Best .Tech Domain Name",
+        "YC x HackTech",
+        "[MLH] Best Use of Gemma 4"
+      ],
+      "table": 8,
+      "slotStart": "10:10",
+      "slotEnd": "10:20"
+    },
+    {
+      "number": 19,
+      "title": "Ionic Pulse",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099014-fake",
+      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #14.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [
+        "https://example.com/demo-14"
+      ],
+      "builtWith": [
+        "python",
+        "fastapi",
+        "react",
+        "postgresql"
+      ],
+      "university": "Georgia Tech",
+      "optInPrizes": [
+        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones",
+        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
+        "Sideshift x HackTech - Cash Prize + Interview"
+      ],
+      "prizeNames": [
+        "[MLH] Best Use of Auth0 AI Agents",
+        "Cybersecurity/Safety",
+        "Sideshift x HackTech"
+      ],
+      "table": 9,
+      "slotStart": "10:10",
+      "slotEnd": "10:20"
+    },
+    {
+      "number": 20,
+      "title": "Neon Ledger",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099030-fake",
+      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #30.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "tryItUrls": [
+        "https://example.com/demo-30"
+      ],
+      "builtWith": [
+        "next.js",
+        "typescript",
+        "vercel",
+        "tailwind"
+      ],
+      "university": "UCLA",
+      "optInPrizes": [
+        "[MLH] Best Use of ElevenLabs - Wireless Earbuds",
+        "Loveable x HackTech - Best use of Lovable",
+        "Ironsite x HackTech - Cash Prize"
+      ],
+      "prizeNames": [
+        "[MLH] Best Use of ElevenLabs",
+        "Loveable x HackTech",
+        "Ironsite x HackTech"
+      ],
+      "table": 10,
+      "slotStart": "10:10",
+      "slotEnd": "10:20"
+    },
+    {
+      "number": 21,
+      "title": "Fuzzy Relay",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099051-fake",
+      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #51.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
       "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "tryItUrls": [],
       "builtWith": [
@@ -699,23 +627,563 @@
         "firebase",
         "mapbox"
       ],
-      "university": "Caltech",
+      "university": "UT Austin",
       "optInPrizes": [
-        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment",
         "[MLH] Best Use of Backboard - Tile Essentials Pack",
-        "Best Creativity - Logitech MX MASTER 4 Mice"
+        "Best Creativity - Logitech MX MASTER 4 Mice",
+        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment"
       ],
       "prizeNames": [
-        "Palohouse x HackTech",
         "[MLH] Best Use of Backboard",
-        "Best Creativity"
+        "Best Creativity",
+        "Palohouse x HackTech"
+      ],
+      "table": 1,
+      "slotStart": "10:20",
+      "slotEnd": "10:30"
+    },
+    {
+      "number": 22,
+      "title": "Swift Vessel",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099003-fake",
+      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #3.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "tryItUrls": [],
+      "builtWith": [
+        "flutter",
+        "firebase",
+        "mapbox"
+      ],
+      "university": "UCLA",
+      "optInPrizes": [
+        "Best Creativity - Logitech MX MASTER 4 Mice",
+        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment",
+        "[MLH] Best Use of Backboard - Tile Essentials Pack"
+      ],
+      "prizeNames": [
+        "Best Creativity",
+        "Palohouse x HackTech",
+        "[MLH] Best Use of Backboard"
+      ],
+      "table": 2,
+      "slotStart": "10:20",
+      "slotEnd": "10:30"
+    },
+    {
+      "number": 23,
+      "title": "Silent Pulse",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099019-fake",
+      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #19.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [],
+      "builtWith": [
+        "react",
+        "node.js",
+        "supabase",
+        "tailwind"
+      ],
+      "university": "MIT",
+      "optInPrizes": [
+        "Best Use of AI - Mac Mini with Apple M4 chip",
+        "IFM x Hacktech - Best Use of K2 Think V2",
+        "[MLH] Best Use of Solana - Ledger Nano S Plus"
+      ],
+      "prizeNames": [
+        "Best Use of AI",
+        "IFM x Hacktech",
+        "[MLH] Best Use of Solana"
+      ],
+      "table": 3,
+      "slotStart": "10:20",
+      "slotEnd": "10:30"
+    },
+    {
+      "number": 24,
+      "title": "Hyper Cortex",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099037-fake",
+      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #37.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [],
+      "builtWith": [
+        "react",
+        "node.js",
+        "supabase",
+        "tailwind"
+      ],
+      "university": "MIT",
+      "optInPrizes": [
+        "Best Use of AI - Mac Mini with Apple M4 chip",
+        "IFM x Hacktech - Best Use of K2 Think V2",
+        "[MLH] Best Use of Solana - Ledger Nano S Plus"
+      ],
+      "prizeNames": [
+        "Best Use of AI",
+        "IFM x Hacktech",
+        "[MLH] Best Use of Solana"
       ],
       "table": 4,
-      "slotStart": "10:50",
-      "slotEnd": "11:00"
+      "slotStart": "10:20",
+      "slotEnd": "10:30"
     },
     {
       "number": 25,
+      "title": "Amber Vessel",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099038-fake",
+      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #38.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [
+        "https://example.com/demo-38"
+      ],
+      "builtWith": [
+        "python",
+        "fastapi",
+        "react",
+        "postgresql"
+      ],
+      "university": "UC Berkeley",
+      "optInPrizes": [
+        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
+        "Sideshift x HackTech - Cash Prize + Interview",
+        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones"
+      ],
+      "prizeNames": [
+        "Cybersecurity/Safety",
+        "Sideshift x HackTech",
+        "[MLH] Best Use of Auth0 AI Agents"
+      ],
+      "table": 5,
+      "slotStart": "10:20",
+      "slotEnd": "10:30"
+    },
+    {
+      "number": 26,
+      "title": "Prism Ledger",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099010-fake",
+      "description": "## Inspiration\nWe wanted to improve accessibility for students.\n\n## What it does\nA demo for table scheduling — project #10.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [
+        "https://example.com/demo-10"
+      ],
+      "builtWith": [
+        "vue",
+        "nuxt",
+        "planetscale",
+        "clerk"
+      ],
+      "university": "MIT",
+      "optInPrizes": [
+        "Listen Labs x HackTech: Simulate Humanity",
+        "[MLH] Best Use of Vultr - Portable Screens",
+        "Best \"Not so sexy\" - WHOOP 5.0 One Health and Fitness Tracker"
+      ],
+      "prizeNames": [
+        "Listen Labs x HackTech: Simulate Humanity",
+        "[MLH] Best Use of Vultr",
+        "Best \"Not so sexy\""
+      ],
+      "table": 6,
+      "slotStart": "10:20",
+      "slotEnd": "10:30"
+    },
+    {
+      "number": 27,
+      "title": "Swift Vessel",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099033-fake",
+      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #33.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "tryItUrls": [],
+      "builtWith": [
+        "flutter",
+        "firebase",
+        "mapbox"
+      ],
+      "university": "UT Austin",
+      "optInPrizes": [
+        "[MLH] Best Use of Backboard - Tile Essentials Pack",
+        "Best Creativity - Logitech MX MASTER 4 Mice",
+        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment"
+      ],
+      "prizeNames": [
+        "[MLH] Best Use of Backboard",
+        "Best Creativity",
+        "Palohouse x HackTech"
+      ],
+      "table": 7,
+      "slotStart": "10:20",
+      "slotEnd": "10:30"
+    },
+    {
+      "number": 28,
+      "title": "Amber Vessel",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099053-fake",
+      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #53.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [],
+      "builtWith": [
+        "svelte",
+        "deno",
+        "turso",
+        "drizzle"
+      ],
+      "university": "Carnegie Mellon",
+      "optInPrizes": [
+        "[MLH] Best .Tech Domain Name - Desktop Microphone",
+        "YC x HackTech - YC Interview",
+        "[MLH] Best Use of Gemma 4 - Google Swag Kits"
+      ],
+      "prizeNames": [
+        "[MLH] Best .Tech Domain Name",
+        "YC x HackTech",
+        "[MLH] Best Use of Gemma 4"
+      ],
+      "table": 8,
+      "slotStart": "10:20",
+      "slotEnd": "10:30"
+    },
+    {
+      "number": 29,
+      "title": "Amber Vessel",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099023-fake",
+      "description": "## Inspiration\nWe wanted to improve local communities for students.\n\n## What it does\nA demo for table scheduling — project #23.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [],
+      "builtWith": [
+        "svelte",
+        "deno",
+        "turso",
+        "drizzle"
+      ],
+      "university": "Georgia Tech",
+      "optInPrizes": [
+        "YC x HackTech - YC Interview",
+        "[MLH] Best Use of Gemma 4 - Google Swag Kits",
+        "[MLH] Best .Tech Domain Name - Desktop Microphone"
+      ],
+      "prizeNames": [
+        "YC x HackTech",
+        "[MLH] Best Use of Gemma 4",
+        "[MLH] Best .Tech Domain Name"
+      ],
+      "table": 9,
+      "slotStart": "10:20",
+      "slotEnd": "10:30"
+    },
+    {
+      "number": 30,
+      "title": "Vector Relay",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099041-fake",
+      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #41.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [],
+      "builtWith": [
+        "svelte",
+        "deno",
+        "turso",
+        "drizzle"
+      ],
+      "university": "Georgia Tech",
+      "optInPrizes": [
+        "YC x HackTech - YC Interview",
+        "[MLH] Best Use of Gemma 4 - Google Swag Kits",
+        "[MLH] Best .Tech Domain Name - Desktop Microphone"
+      ],
+      "prizeNames": [
+        "YC x HackTech",
+        "[MLH] Best Use of Gemma 4",
+        "[MLH] Best .Tech Domain Name"
+      ],
+      "table": 10,
+      "slotStart": "10:20",
+      "slotEnd": "10:30"
+    },
+    {
+      "number": 31,
+      "title": "Nimbus Pulse",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099039-fake",
+      "description": "## Inspiration\nWe wanted to improve local communities for students.\n\n## What it does\nA demo for table scheduling — project #39.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "tryItUrls": [],
+      "builtWith": [
+        "flutter",
+        "firebase",
+        "mapbox"
+      ],
+      "university": "UCLA",
+      "optInPrizes": [
+        "Best Creativity - Logitech MX MASTER 4 Mice",
+        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment",
+        "[MLH] Best Use of Backboard - Tile Essentials Pack"
+      ],
+      "prizeNames": [
+        "Best Creativity",
+        "Palohouse x HackTech",
+        "[MLH] Best Use of Backboard"
+      ],
+      "table": 1,
+      "slotStart": "10:30",
+      "slotEnd": "10:40"
+    },
+    {
+      "number": 32,
+      "title": "Fuzzy Relay",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099021-fake",
+      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #21.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "tryItUrls": [],
+      "builtWith": [
+        "flutter",
+        "firebase",
+        "mapbox"
+      ],
+      "university": "UCLA",
+      "optInPrizes": [
+        "Best Creativity - Logitech MX MASTER 4 Mice",
+        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment",
+        "[MLH] Best Use of Backboard - Tile Essentials Pack"
+      ],
+      "prizeNames": [
+        "Best Creativity",
+        "Palohouse x HackTech",
+        "[MLH] Best Use of Backboard"
+      ],
+      "table": 2,
+      "slotStart": "10:30",
+      "slotEnd": "10:40"
+    },
+    {
+      "number": 33,
+      "title": "Vector Relay",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099026-fake",
+      "description": "## Inspiration\nWe wanted to improve accessibility for students.\n\n## What it does\nA demo for table scheduling — project #26.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [
+        "https://example.com/demo-26"
+      ],
+      "builtWith": [
+        "python",
+        "fastapi",
+        "react",
+        "postgresql"
+      ],
+      "university": "Carnegie Mellon",
+      "optInPrizes": [
+        "Sideshift x HackTech - Cash Prize + Interview",
+        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones",
+        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard"
+      ],
+      "prizeNames": [
+        "Sideshift x HackTech",
+        "[MLH] Best Use of Auth0 AI Agents",
+        "Cybersecurity/Safety"
+      ],
+      "table": 3,
+      "slotStart": "10:30",
+      "slotEnd": "10:40"
+    },
+    {
+      "number": 34,
+      "title": "Lunar Relay",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099031-fake",
+      "description": "## Inspiration\nWe wanted to improve local communities for students.\n\n## What it does\nA demo for table scheduling — project #31.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [],
+      "builtWith": [
+        "react",
+        "node.js",
+        "supabase",
+        "tailwind"
+      ],
+      "university": "Stanford",
+      "optInPrizes": [
+        "[MLH] Best Use of Solana - Ledger Nano S Plus",
+        "Best Use of AI - Mac Mini with Apple M4 chip",
+        "IFM x Hacktech - Best Use of K2 Think V2"
+      ],
+      "prizeNames": [
+        "[MLH] Best Use of Solana",
+        "Best Use of AI",
+        "IFM x Hacktech"
+      ],
+      "table": 4,
+      "slotStart": "10:30",
+      "slotEnd": "10:40"
+    },
+    {
+      "number": 35,
+      "title": "Civic Ledger",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099050-fake",
+      "description": "## Inspiration\nWe wanted to improve accessibility for students.\n\n## What it does\nA demo for table scheduling — project #50.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [
+        "https://example.com/demo-50"
+      ],
+      "builtWith": [
+        "python",
+        "fastapi",
+        "react",
+        "postgresql"
+      ],
+      "university": "Georgia Tech",
+      "optInPrizes": [
+        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones",
+        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
+        "Sideshift x HackTech - Cash Prize + Interview"
+      ],
+      "prizeNames": [
+        "[MLH] Best Use of Auth0 AI Agents",
+        "Cybersecurity/Safety",
+        "Sideshift x HackTech"
+      ],
+      "table": 5,
+      "slotStart": "10:30",
+      "slotEnd": "10:40"
+    },
+    {
+      "number": 36,
+      "title": "Sonic Vessel",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099043-fake",
+      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #43.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [],
+      "builtWith": [
+        "react",
+        "node.js",
+        "supabase",
+        "tailwind"
+      ],
+      "university": "Waterloo",
+      "optInPrizes": [
+        "IFM x Hacktech - Best Use of K2 Think V2",
+        "[MLH] Best Use of Solana - Ledger Nano S Plus",
+        "Best Use of AI - Mac Mini with Apple M4 chip"
+      ],
+      "prizeNames": [
+        "IFM x Hacktech",
+        "[MLH] Best Use of Solana",
+        "Best Use of AI"
+      ],
+      "table": 6,
+      "slotStart": "10:30",
+      "slotEnd": "10:40"
+    },
+    {
+      "number": 37,
+      "title": "Quantum Cortex",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099002-fake",
+      "description": "## Inspiration\nWe wanted to improve accessibility for students.\n\n## What it does\nA demo for table scheduling — project #2.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [
+        "https://example.com/demo-2"
+      ],
+      "builtWith": [
+        "python",
+        "fastapi",
+        "react",
+        "postgresql"
+      ],
+      "university": "UC Berkeley",
+      "optInPrizes": [
+        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
+        "Sideshift x HackTech - Cash Prize + Interview",
+        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones"
+      ],
+      "prizeNames": [
+        "Cybersecurity/Safety",
+        "Sideshift x HackTech",
+        "[MLH] Best Use of Auth0 AI Agents"
+      ],
+      "table": 7,
+      "slotStart": "10:30",
+      "slotEnd": "10:40"
+    },
+    {
+      "number": 38,
+      "title": "Sonic Vessel",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099028-fake",
+      "description": "## Inspiration\nWe wanted to improve health literacy for students.\n\n## What it does\nA demo for table scheduling — project #28.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [
+        "https://example.com/demo-28"
+      ],
+      "builtWith": [
+        "vue",
+        "nuxt",
+        "planetscale",
+        "clerk"
+      ],
+      "university": "MIT",
+      "optInPrizes": [
+        "Listen Labs x HackTech: Simulate Humanity",
+        "[MLH] Best Use of Vultr - Portable Screens",
+        "Best \"Not so sexy\" - WHOOP 5.0 One Health and Fitness Tracker"
+      ],
+      "prizeNames": [
+        "Listen Labs x HackTech: Simulate Humanity",
+        "[MLH] Best Use of Vultr",
+        "Best \"Not so sexy\""
+      ],
+      "table": 8,
+      "slotStart": "10:30",
+      "slotEnd": "10:40"
+    },
+    {
+      "number": 39,
+      "title": "Ionic Pulse",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099029-fake",
+      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #29.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [],
+      "builtWith": [
+        "svelte",
+        "deno",
+        "turso",
+        "drizzle"
+      ],
+      "university": "UC Berkeley",
+      "optInPrizes": [
+        "[MLH] Best Use of Gemma 4 - Google Swag Kits",
+        "[MLH] Best .Tech Domain Name - Desktop Microphone",
+        "YC x HackTech - YC Interview"
+      ],
+      "prizeNames": [
+        "[MLH] Best Use of Gemma 4",
+        "[MLH] Best .Tech Domain Name",
+        "YC x HackTech"
+      ],
+      "table": 9,
+      "slotStart": "10:30",
+      "slotEnd": "10:40"
+    },
+    {
+      "number": 40,
+      "title": "Hyper Cortex",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099007-fake",
+      "description": "## Inspiration\nWe wanted to improve local communities for students.\n\n## What it does\nA demo for table scheduling — project #7.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [],
+      "builtWith": [
+        "react",
+        "node.js",
+        "supabase",
+        "tailwind"
+      ],
+      "university": "Waterloo",
+      "optInPrizes": [
+        "IFM x Hacktech - Best Use of K2 Think V2",
+        "[MLH] Best Use of Solana - Ledger Nano S Plus",
+        "Best Use of AI - Mac Mini with Apple M4 chip"
+      ],
+      "prizeNames": [
+        "IFM x Hacktech",
+        "[MLH] Best Use of Solana",
+        "Best Use of AI"
+      ],
+      "table": 10,
+      "slotStart": "10:30",
+      "slotEnd": "10:40"
+    },
+    {
+      "number": 41,
       "title": "Fuzzy Relay",
       "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099036-fake",
       "description": "## Inspiration\nWe wanted to improve health literacy for students.\n\n## What it does\nA demo for table scheduling — project #36.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
@@ -741,71 +1209,211 @@
         "[MLH] Best Use of ElevenLabs"
       ],
       "table": 1,
-      "slotStart": "11:00",
-      "slotEnd": "11:10"
+      "slotStart": "10:40",
+      "slotEnd": "10:50"
     },
     {
-      "number": 26,
-      "title": "Fuzzy Relay",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099006-fake",
-      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #6.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "number": 42,
+      "title": "Civic Ledger",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099020-fake",
+      "description": "## Inspiration\nWe wanted to improve health literacy for students.\n\n## What it does\nA demo for table scheduling — project #20.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
       "tryItUrls": [
-        "https://example.com/demo-6"
+        "https://example.com/demo-20"
       ],
       "builtWith": [
-        "next.js",
-        "typescript",
-        "vercel",
-        "tailwind"
+        "python",
+        "fastapi",
+        "react",
+        "postgresql"
       ],
-      "university": "UT Austin",
+      "university": "UC Berkeley",
       "optInPrizes": [
-        "Ironsite x HackTech - Cash Prize",
-        "[MLH] Best Use of ElevenLabs - Wireless Earbuds",
-        "Loveable x HackTech - Best use of Lovable"
+        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
+        "Sideshift x HackTech - Cash Prize + Interview",
+        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones"
       ],
       "prizeNames": [
-        "Ironsite x HackTech",
-        "[MLH] Best Use of ElevenLabs",
-        "Loveable x HackTech"
+        "Cybersecurity/Safety",
+        "Sideshift x HackTech",
+        "[MLH] Best Use of Auth0 AI Agents"
       ],
       "table": 2,
-      "slotStart": "11:00",
-      "slotEnd": "11:10"
+      "slotStart": "10:40",
+      "slotEnd": "10:50"
     },
     {
-      "number": 27,
-      "title": "Nimbus Pulse",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099024-fake",
-      "description": "## Inspiration\nWe wanted to improve sustainability for students.\n\n## What it does\nA demo for table scheduling — project #24.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "tryItUrls": [
-        "https://example.com/demo-24"
-      ],
+      "number": 43,
+      "title": "Prism Ledger",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099025-fake",
+      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #25.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [],
       "builtWith": [
-        "next.js",
-        "typescript",
-        "vercel",
+        "react",
+        "node.js",
+        "supabase",
         "tailwind"
+      ],
+      "university": "Waterloo",
+      "optInPrizes": [
+        "IFM x Hacktech - Best Use of K2 Think V2",
+        "[MLH] Best Use of Solana - Ledger Nano S Plus",
+        "Best Use of AI - Mac Mini with Apple M4 chip"
+      ],
+      "prizeNames": [
+        "IFM x Hacktech",
+        "[MLH] Best Use of Solana",
+        "Best Use of AI"
+      ],
+      "table": 3,
+      "slotStart": "10:40",
+      "slotEnd": "10:50"
+    },
+    {
+      "number": 44,
+      "title": "Neon Ledger",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099015-fake",
+      "description": "## Inspiration\nWe wanted to improve local communities for students.\n\n## What it does\nA demo for table scheduling — project #15.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "tryItUrls": [],
+      "builtWith": [
+        "flutter",
+        "firebase",
+        "mapbox"
       ],
       "university": "UT Austin",
       "optInPrizes": [
-        "Ironsite x HackTech - Cash Prize",
-        "[MLH] Best Use of ElevenLabs - Wireless Earbuds",
-        "Loveable x HackTech - Best use of Lovable"
+        "[MLH] Best Use of Backboard - Tile Essentials Pack",
+        "Best Creativity - Logitech MX MASTER 4 Mice",
+        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment"
       ],
       "prizeNames": [
-        "Ironsite x HackTech",
-        "[MLH] Best Use of ElevenLabs",
-        "Loveable x HackTech"
+        "[MLH] Best Use of Backboard",
+        "Best Creativity",
+        "Palohouse x HackTech"
       ],
-      "table": 3,
-      "slotStart": "11:00",
-      "slotEnd": "11:10"
+      "table": 4,
+      "slotStart": "10:40",
+      "slotEnd": "10:50"
     },
     {
-      "number": 28,
+      "number": 45,
+      "title": "Prism Ledger",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099055-fake",
+      "description": "## Inspiration\nWe wanted to improve local communities for students.\n\n## What it does\nA demo for table scheduling — project #55.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [],
+      "builtWith": [
+        "react",
+        "node.js",
+        "supabase",
+        "tailwind"
+      ],
+      "university": "MIT",
+      "optInPrizes": [
+        "Best Use of AI - Mac Mini with Apple M4 chip",
+        "IFM x Hacktech - Best Use of K2 Think V2",
+        "[MLH] Best Use of Solana - Ledger Nano S Plus"
+      ],
+      "prizeNames": [
+        "Best Use of AI",
+        "IFM x Hacktech",
+        "[MLH] Best Use of Solana"
+      ],
+      "table": 5,
+      "slotStart": "10:40",
+      "slotEnd": "10:50"
+    },
+    {
+      "number": 46,
+      "title": "Lunar Relay",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099016-fake",
+      "description": "## Inspiration\nWe wanted to improve sustainability for students.\n\n## What it does\nA demo for table scheduling — project #16.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [
+        "https://example.com/demo-16"
+      ],
+      "builtWith": [
+        "vue",
+        "nuxt",
+        "planetscale",
+        "clerk"
+      ],
+      "university": "Waterloo",
+      "optInPrizes": [
+        "[MLH] Best Use of Vultr - Portable Screens",
+        "Best \"Not so sexy\" - WHOOP 5.0 One Health and Fitness Tracker",
+        "Listen Labs x HackTech: Simulate Humanity"
+      ],
+      "prizeNames": [
+        "[MLH] Best Use of Vultr",
+        "Best \"Not so sexy\"",
+        "Listen Labs x HackTech: Simulate Humanity"
+      ],
+      "table": 6,
+      "slotStart": "10:40",
+      "slotEnd": "10:50"
+    },
+    {
+      "number": 47,
+      "title": "Chrono Cortex",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099027-fake",
+      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #27.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "tryItUrls": [],
+      "builtWith": [
+        "flutter",
+        "firebase",
+        "mapbox"
+      ],
+      "university": "Caltech",
+      "optInPrizes": [
+        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment",
+        "[MLH] Best Use of Backboard - Tile Essentials Pack",
+        "Best Creativity - Logitech MX MASTER 4 Mice"
+      ],
+      "prizeNames": [
+        "Palohouse x HackTech",
+        "[MLH] Best Use of Backboard",
+        "Best Creativity"
+      ],
+      "table": 7,
+      "slotStart": "10:40",
+      "slotEnd": "10:50"
+    },
+    {
+      "number": 48,
+      "title": "Quantum Cortex",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099032-fake",
+      "description": "## Inspiration\nWe wanted to improve sustainability for students.\n\n## What it does\nA demo for table scheduling — project #32.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "",
+      "tryItUrls": [
+        "https://example.com/demo-32"
+      ],
+      "builtWith": [
+        "python",
+        "fastapi",
+        "react",
+        "postgresql"
+      ],
+      "university": "Georgia Tech",
+      "optInPrizes": [
+        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones",
+        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
+        "Sideshift x HackTech - Cash Prize + Interview"
+      ],
+      "prizeNames": [
+        "[MLH] Best Use of Auth0 AI Agents",
+        "Cybersecurity/Safety",
+        "Sideshift x HackTech"
+      ],
+      "table": 8,
+      "slotStart": "10:40",
+      "slotEnd": "10:50"
+    },
+    {
+      "number": 49,
       "title": "Amber Vessel",
       "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099008-fake",
       "description": "## Inspiration\nWe wanted to improve sustainability for students.\n\n## What it does\nA demo for table scheduling — project #8.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
@@ -830,187 +1438,75 @@
         "[MLH] Best Use of Auth0 AI Agents",
         "Cybersecurity/Safety"
       ],
-      "table": 4,
-      "slotStart": "11:00",
-      "slotEnd": "11:10"
+      "table": 9,
+      "slotStart": "10:40",
+      "slotEnd": "10:50"
     },
     {
-      "number": 29,
-      "title": "Vector Relay",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099026-fake",
-      "description": "## Inspiration\nWe wanted to improve accessibility for students.\n\n## What it does\nA demo for table scheduling — project #26.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [
-        "https://example.com/demo-26"
-      ],
-      "builtWith": [
-        "python",
-        "fastapi",
-        "react",
-        "postgresql"
-      ],
-      "university": "Carnegie Mellon",
-      "optInPrizes": [
-        "Sideshift x HackTech - Cash Prize + Interview",
-        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones",
-        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard"
-      ],
-      "prizeNames": [
-        "Sideshift x HackTech",
-        "[MLH] Best Use of Auth0 AI Agents",
-        "Cybersecurity/Safety"
-      ],
-      "table": 1,
-      "slotStart": "11:10",
-      "slotEnd": "11:20"
-    },
-    {
-      "number": 30,
-      "title": "Quantum Cortex",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099002-fake",
-      "description": "## Inspiration\nWe wanted to improve accessibility for students.\n\n## What it does\nA demo for table scheduling — project #2.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [
-        "https://example.com/demo-2"
-      ],
-      "builtWith": [
-        "python",
-        "fastapi",
-        "react",
-        "postgresql"
-      ],
-      "university": "UC Berkeley",
-      "optInPrizes": [
-        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
-        "Sideshift x HackTech - Cash Prize + Interview",
-        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones"
-      ],
-      "prizeNames": [
-        "Cybersecurity/Safety",
-        "Sideshift x HackTech",
-        "[MLH] Best Use of Auth0 AI Agents"
-      ],
-      "table": 2,
-      "slotStart": "11:10",
-      "slotEnd": "11:20"
-    },
-    {
-      "number": 31,
+      "number": 50,
       "title": "Hyper Cortex",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099007-fake",
-      "description": "## Inspiration\nWe wanted to improve local communities for students.\n\n## What it does\nA demo for table scheduling — project #7.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099022-fake",
+      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #22.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
       "videoUrl": "",
-      "tryItUrls": [],
+      "tryItUrls": [
+        "https://example.com/demo-22"
+      ],
       "builtWith": [
-        "react",
-        "node.js",
-        "supabase",
+        "vue",
+        "nuxt",
+        "planetscale",
+        "clerk"
+      ],
+      "university": "Stanford",
+      "optInPrizes": [
+        "Best \"Not so sexy\" - WHOOP 5.0 One Health and Fitness Tracker",
+        "Listen Labs x HackTech: Simulate Humanity",
+        "[MLH] Best Use of Vultr - Portable Screens"
+      ],
+      "prizeNames": [
+        "Best \"Not so sexy\"",
+        "Listen Labs x HackTech: Simulate Humanity",
+        "[MLH] Best Use of Vultr"
+      ],
+      "table": 10,
+      "slotStart": "10:40",
+      "slotEnd": "10:50"
+    },
+    {
+      "number": 51,
+      "title": "Swift Vessel",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099018-fake",
+      "description": "## Inspiration\nWe wanted to improve accessibility for students.\n\n## What it does\nA demo for table scheduling — project #18.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "tryItUrls": [
+        "https://example.com/demo-18"
+      ],
+      "builtWith": [
+        "next.js",
+        "typescript",
+        "vercel",
         "tailwind"
       ],
-      "university": "Waterloo",
+      "university": "Caltech",
       "optInPrizes": [
-        "IFM x Hacktech - Best Use of K2 Think V2",
-        "[MLH] Best Use of Solana - Ledger Nano S Plus",
-        "Best Use of AI - Mac Mini with Apple M4 chip"
+        "Loveable x HackTech - Best use of Lovable",
+        "Ironsite x HackTech - Cash Prize",
+        "[MLH] Best Use of ElevenLabs - Wireless Earbuds"
       ],
       "prizeNames": [
-        "IFM x Hacktech",
-        "[MLH] Best Use of Solana",
-        "Best Use of AI"
-      ],
-      "table": 3,
-      "slotStart": "11:10",
-      "slotEnd": "11:20"
-    },
-    {
-      "number": 32,
-      "title": "Nimbus Pulse",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099039-fake",
-      "description": "## Inspiration\nWe wanted to improve local communities for students.\n\n## What it does\nA demo for table scheduling — project #39.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "tryItUrls": [],
-      "builtWith": [
-        "flutter",
-        "firebase",
-        "mapbox"
-      ],
-      "university": "UCLA",
-      "optInPrizes": [
-        "Best Creativity - Logitech MX MASTER 4 Mice",
-        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment",
-        "[MLH] Best Use of Backboard - Tile Essentials Pack"
-      ],
-      "prizeNames": [
-        "Best Creativity",
-        "Palohouse x HackTech",
-        "[MLH] Best Use of Backboard"
-      ],
-      "table": 4,
-      "slotStart": "11:10",
-      "slotEnd": "11:20"
-    },
-    {
-      "number": 33,
-      "title": "Chrono Cortex",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099057-fake",
-      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #57.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "tryItUrls": [],
-      "builtWith": [
-        "flutter",
-        "firebase",
-        "mapbox"
-      ],
-      "university": "UCLA",
-      "optInPrizes": [
-        "Best Creativity - Logitech MX MASTER 4 Mice",
-        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment",
-        "[MLH] Best Use of Backboard - Tile Essentials Pack"
-      ],
-      "prizeNames": [
-        "Best Creativity",
-        "Palohouse x HackTech",
-        "[MLH] Best Use of Backboard"
+        "Loveable x HackTech",
+        "Ironsite x HackTech",
+        "[MLH] Best Use of ElevenLabs"
       ],
       "table": 1,
-      "slotStart": "11:20",
-      "slotEnd": "11:30"
+      "slotStart": "10:50",
+      "slotEnd": "11:00"
     },
     {
-      "number": 34,
-      "title": "Civic Ledger",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099050-fake",
-      "description": "## Inspiration\nWe wanted to improve accessibility for students.\n\n## What it does\nA demo for table scheduling — project #50.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [
-        "https://example.com/demo-50"
-      ],
-      "builtWith": [
-        "python",
-        "fastapi",
-        "react",
-        "postgresql"
-      ],
-      "university": "Georgia Tech",
-      "optInPrizes": [
-        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones",
-        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
-        "Sideshift x HackTech - Cash Prize + Interview"
-      ],
-      "prizeNames": [
-        "[MLH] Best Use of Auth0 AI Agents",
-        "Cybersecurity/Safety",
-        "Sideshift x HackTech"
-      ],
-      "table": 2,
-      "slotStart": "11:20",
-      "slotEnd": "11:30"
-    },
-    {
-      "number": 35,
-      "title": "Lunar Relay",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099031-fake",
-      "description": "## Inspiration\nWe wanted to improve local communities for students.\n\n## What it does\nA demo for table scheduling — project #31.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "number": 52,
+      "title": "Sonic Vessel",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099013-fake",
+      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #13.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
       "videoUrl": "",
       "tryItUrls": [],
       "builtWith": [
@@ -1030,100 +1526,12 @@
         "Best Use of AI",
         "IFM x Hacktech"
       ],
-      "table": 3,
-      "slotStart": "11:20",
-      "slotEnd": "11:30"
-    },
-    {
-      "number": 36,
-      "title": "Amber Vessel",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099038-fake",
-      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #38.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [
-        "https://example.com/demo-38"
-      ],
-      "builtWith": [
-        "python",
-        "fastapi",
-        "react",
-        "postgresql"
-      ],
-      "university": "UC Berkeley",
-      "optInPrizes": [
-        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
-        "Sideshift x HackTech - Cash Prize + Interview",
-        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones"
-      ],
-      "prizeNames": [
-        "Cybersecurity/Safety",
-        "Sideshift x HackTech",
-        "[MLH] Best Use of Auth0 AI Agents"
-      ],
-      "table": 4,
-      "slotStart": "11:20",
-      "slotEnd": "11:30"
-    },
-    {
-      "number": 37,
-      "title": "Prism Ledger",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099055-fake",
-      "description": "## Inspiration\nWe wanted to improve local communities for students.\n\n## What it does\nA demo for table scheduling — project #55.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [],
-      "builtWith": [
-        "react",
-        "node.js",
-        "supabase",
-        "tailwind"
-      ],
-      "university": "MIT",
-      "optInPrizes": [
-        "Best Use of AI - Mac Mini with Apple M4 chip",
-        "IFM x Hacktech - Best Use of K2 Think V2",
-        "[MLH] Best Use of Solana - Ledger Nano S Plus"
-      ],
-      "prizeNames": [
-        "Best Use of AI",
-        "IFM x Hacktech",
-        "[MLH] Best Use of Solana"
-      ],
-      "table": 1,
-      "slotStart": "11:30",
-      "slotEnd": "11:40"
-    },
-    {
-      "number": 38,
-      "title": "Swift Vessel",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099048-fake",
-      "description": "## Inspiration\nWe wanted to improve sustainability for students.\n\n## What it does\nA demo for table scheduling — project #48.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "tryItUrls": [
-        "https://example.com/demo-48"
-      ],
-      "builtWith": [
-        "next.js",
-        "typescript",
-        "vercel",
-        "tailwind"
-      ],
-      "university": "UCLA",
-      "optInPrizes": [
-        "[MLH] Best Use of ElevenLabs - Wireless Earbuds",
-        "Loveable x HackTech - Best use of Lovable",
-        "Ironsite x HackTech - Cash Prize"
-      ],
-      "prizeNames": [
-        "[MLH] Best Use of ElevenLabs",
-        "Loveable x HackTech",
-        "Ironsite x HackTech"
-      ],
       "table": 2,
-      "slotStart": "11:30",
-      "slotEnd": "11:40"
+      "slotStart": "10:50",
+      "slotEnd": "11:00"
     },
     {
-      "number": 39,
+      "number": 53,
       "title": "Silent Pulse",
       "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099034-fake",
       "description": "## Inspiration\nWe wanted to improve accessibility for students.\n\n## What it does\nA demo for table scheduling — project #34.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
@@ -1149,135 +1557,17 @@
         "Listen Labs x HackTech: Simulate Humanity"
       ],
       "table": 3,
-      "slotStart": "11:30",
-      "slotEnd": "11:40"
+      "slotStart": "10:50",
+      "slotEnd": "11:00"
     },
     {
-      "number": 40,
-      "title": "Quantum Cortex",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099032-fake",
-      "description": "## Inspiration\nWe wanted to improve sustainability for students.\n\n## What it does\nA demo for table scheduling — project #32.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [
-        "https://example.com/demo-32"
-      ],
-      "builtWith": [
-        "python",
-        "fastapi",
-        "react",
-        "postgresql"
-      ],
-      "university": "Georgia Tech",
-      "optInPrizes": [
-        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones",
-        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
-        "Sideshift x HackTech - Cash Prize + Interview"
-      ],
-      "prizeNames": [
-        "[MLH] Best Use of Auth0 AI Agents",
-        "Cybersecurity/Safety",
-        "Sideshift x HackTech"
-      ],
-      "table": 4,
-      "slotStart": "11:30",
-      "slotEnd": "11:40"
-    },
-    {
-      "number": 41,
-      "title": "Civic Ledger",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099035-fake",
-      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #35.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [],
-      "builtWith": [
-        "svelte",
-        "deno",
-        "turso",
-        "drizzle"
-      ],
-      "university": "Carnegie Mellon",
-      "optInPrizes": [
-        "[MLH] Best .Tech Domain Name - Desktop Microphone",
-        "YC x HackTech - YC Interview",
-        "[MLH] Best Use of Gemma 4 - Google Swag Kits"
-      ],
-      "prizeNames": [
-        "[MLH] Best .Tech Domain Name",
-        "YC x HackTech",
-        "[MLH] Best Use of Gemma 4"
-      ],
-      "table": 1,
-      "slotStart": "11:40",
-      "slotEnd": "11:50"
-    },
-    {
-      "number": 42,
-      "title": "Neon Ledger",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099060-fake",
-      "description": "## Inspiration\nWe wanted to improve health literacy for students.\n\n## What it does\nA demo for table scheduling — project #60.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "number": 54,
+      "title": "Swift Vessel",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099048-fake",
+      "description": "## Inspiration\nWe wanted to improve sustainability for students.\n\n## What it does\nA demo for table scheduling — project #48.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
       "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "tryItUrls": [
-        "https://example.com/demo-60"
-      ],
-      "builtWith": [
-        "next.js",
-        "typescript",
-        "vercel",
-        "tailwind"
-      ],
-      "university": "UT Austin",
-      "optInPrizes": [
-        "Ironsite x HackTech - Cash Prize",
-        "[MLH] Best Use of ElevenLabs - Wireless Earbuds",
-        "Loveable x HackTech - Best use of Lovable"
-      ],
-      "prizeNames": [
-        "Ironsite x HackTech",
-        "[MLH] Best Use of ElevenLabs",
-        "Loveable x HackTech"
-      ],
-      "table": 2,
-      "slotStart": "11:40",
-      "slotEnd": "11:50"
-    },
-    {
-      "number": 43,
-      "title": "Prism Ledger",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099040-fake",
-      "description": "## Inspiration\nWe wanted to improve sustainability for students.\n\n## What it does\nA demo for table scheduling — project #40.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [
-        "https://example.com/demo-40"
-      ],
-      "builtWith": [
-        "vue",
-        "nuxt",
-        "planetscale",
-        "clerk"
-      ],
-      "university": "Stanford",
-      "optInPrizes": [
-        "Best \"Not so sexy\" - WHOOP 5.0 One Health and Fitness Tracker",
-        "Listen Labs x HackTech: Simulate Humanity",
-        "[MLH] Best Use of Vultr - Portable Screens"
-      ],
-      "prizeNames": [
-        "Best \"Not so sexy\"",
-        "Listen Labs x HackTech: Simulate Humanity",
-        "[MLH] Best Use of Vultr"
-      ],
-      "table": 3,
-      "slotStart": "11:40",
-      "slotEnd": "11:50"
-    },
-    {
-      "number": 44,
-      "title": "Neon Ledger",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099030-fake",
-      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #30.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "tryItUrls": [
-        "https://example.com/demo-30"
+        "https://example.com/demo-48"
       ],
       "builtWith": [
         "next.js",
@@ -1297,303 +1587,17 @@
         "Ironsite x HackTech"
       ],
       "table": 4,
-      "slotStart": "11:40",
-      "slotEnd": "11:50"
-    },
-    {
-      "number": 45,
-      "title": "Sonic Vessel",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099043-fake",
-      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #43.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [],
-      "builtWith": [
-        "react",
-        "node.js",
-        "supabase",
-        "tailwind"
-      ],
-      "university": "Waterloo",
-      "optInPrizes": [
-        "IFM x Hacktech - Best Use of K2 Think V2",
-        "[MLH] Best Use of Solana - Ledger Nano S Plus",
-        "Best Use of AI - Mac Mini with Apple M4 chip"
-      ],
-      "prizeNames": [
-        "IFM x Hacktech",
-        "[MLH] Best Use of Solana",
-        "Best Use of AI"
-      ],
-      "table": 1,
-      "slotStart": "11:50",
-      "slotEnd": "12:00"
-    },
-    {
-      "number": 46,
-      "title": "Swift Vessel",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099018-fake",
-      "description": "## Inspiration\nWe wanted to improve accessibility for students.\n\n## What it does\nA demo for table scheduling — project #18.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "tryItUrls": [
-        "https://example.com/demo-18"
-      ],
-      "builtWith": [
-        "next.js",
-        "typescript",
-        "vercel",
-        "tailwind"
-      ],
-      "university": "Caltech",
-      "optInPrizes": [
-        "Loveable x HackTech - Best use of Lovable",
-        "Ironsite x HackTech - Cash Prize",
-        "[MLH] Best Use of ElevenLabs - Wireless Earbuds"
-      ],
-      "prizeNames": [
-        "Loveable x HackTech",
-        "Ironsite x HackTech",
-        "[MLH] Best Use of ElevenLabs"
-      ],
-      "table": 2,
-      "slotStart": "11:50",
-      "slotEnd": "12:00"
-    },
-    {
-      "number": 47,
-      "title": "Civic Ledger",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099020-fake",
-      "description": "## Inspiration\nWe wanted to improve health literacy for students.\n\n## What it does\nA demo for table scheduling — project #20.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [
-        "https://example.com/demo-20"
-      ],
-      "builtWith": [
-        "python",
-        "fastapi",
-        "react",
-        "postgresql"
-      ],
-      "university": "UC Berkeley",
-      "optInPrizes": [
-        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
-        "Sideshift x HackTech - Cash Prize + Interview",
-        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones"
-      ],
-      "prizeNames": [
-        "Cybersecurity/Safety",
-        "Sideshift x HackTech",
-        "[MLH] Best Use of Auth0 AI Agents"
-      ],
-      "table": 3,
-      "slotStart": "11:50",
-      "slotEnd": "12:00"
-    },
-    {
-      "number": 48,
-      "title": "Hyper Cortex",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099037-fake",
-      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #37.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [],
-      "builtWith": [
-        "react",
-        "node.js",
-        "supabase",
-        "tailwind"
-      ],
-      "university": "MIT",
-      "optInPrizes": [
-        "Best Use of AI - Mac Mini with Apple M4 chip",
-        "IFM x Hacktech - Best Use of K2 Think V2",
-        "[MLH] Best Use of Solana - Ledger Nano S Plus"
-      ],
-      "prizeNames": [
-        "Best Use of AI",
-        "IFM x Hacktech",
-        "[MLH] Best Use of Solana"
-      ],
-      "table": 4,
-      "slotStart": "11:50",
-      "slotEnd": "12:00"
-    },
-    {
-      "number": 49,
-      "title": "Neon Ledger",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099045-fake",
-      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #45.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "tryItUrls": [],
-      "builtWith": [
-        "flutter",
-        "firebase",
-        "mapbox"
-      ],
-      "university": "Caltech",
-      "optInPrizes": [
-        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment",
-        "[MLH] Best Use of Backboard - Tile Essentials Pack",
-        "Best Creativity - Logitech MX MASTER 4 Mice"
-      ],
-      "prizeNames": [
-        "Palohouse x HackTech",
-        "[MLH] Best Use of Backboard",
-        "Best Creativity"
-      ],
-      "table": 1,
-      "slotStart": "12:00",
-      "slotEnd": "12:10"
-    },
-    {
-      "number": 50,
-      "title": "Prism Ledger",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099010-fake",
-      "description": "## Inspiration\nWe wanted to improve accessibility for students.\n\n## What it does\nA demo for table scheduling — project #10.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [
-        "https://example.com/demo-10"
-      ],
-      "builtWith": [
-        "vue",
-        "nuxt",
-        "planetscale",
-        "clerk"
-      ],
-      "university": "MIT",
-      "optInPrizes": [
-        "Listen Labs x HackTech: Simulate Humanity",
-        "[MLH] Best Use of Vultr - Portable Screens",
-        "Best \"Not so sexy\" - WHOOP 5.0 One Health and Fitness Tracker"
-      ],
-      "prizeNames": [
-        "Listen Labs x HackTech: Simulate Humanity",
-        "[MLH] Best Use of Vultr",
-        "Best \"Not so sexy\""
-      ],
-      "table": 2,
-      "slotStart": "12:00",
-      "slotEnd": "12:10"
-    },
-    {
-      "number": 51,
-      "title": "Vector Relay",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099011-fake",
-      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #11.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [],
-      "builtWith": [
-        "svelte",
-        "deno",
-        "turso",
-        "drizzle"
-      ],
-      "university": "UC Berkeley",
-      "optInPrizes": [
-        "[MLH] Best Use of Gemma 4 - Google Swag Kits",
-        "[MLH] Best .Tech Domain Name - Desktop Microphone",
-        "YC x HackTech - YC Interview"
-      ],
-      "prizeNames": [
-        "[MLH] Best Use of Gemma 4",
-        "[MLH] Best .Tech Domain Name",
-        "YC x HackTech"
-      ],
-      "table": 3,
-      "slotStart": "12:00",
-      "slotEnd": "12:10"
-    },
-    {
-      "number": 52,
-      "title": "Fuzzy Relay",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099021-fake",
-      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #21.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "tryItUrls": [],
-      "builtWith": [
-        "flutter",
-        "firebase",
-        "mapbox"
-      ],
-      "university": "UCLA",
-      "optInPrizes": [
-        "Best Creativity - Logitech MX MASTER 4 Mice",
-        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment",
-        "[MLH] Best Use of Backboard - Tile Essentials Pack"
-      ],
-      "prizeNames": [
-        "Best Creativity",
-        "Palohouse x HackTech",
-        "[MLH] Best Use of Backboard"
-      ],
-      "table": 4,
-      "slotStart": "12:00",
-      "slotEnd": "12:10"
-    },
-    {
-      "number": 53,
-      "title": "Lunar Relay",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099046-fake",
-      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #46.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [
-        "https://example.com/demo-46"
-      ],
-      "builtWith": [
-        "vue",
-        "nuxt",
-        "planetscale",
-        "clerk"
-      ],
-      "university": "MIT",
-      "optInPrizes": [
-        "Listen Labs x HackTech: Simulate Humanity",
-        "[MLH] Best Use of Vultr - Portable Screens",
-        "Best \"Not so sexy\" - WHOOP 5.0 One Health and Fitness Tracker"
-      ],
-      "prizeNames": [
-        "Listen Labs x HackTech: Simulate Humanity",
-        "[MLH] Best Use of Vultr",
-        "Best \"Not so sexy\""
-      ],
-      "table": 1,
-      "slotStart": "12:10",
-      "slotEnd": "12:20"
-    },
-    {
-      "number": 54,
-      "title": "Amber Vessel",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099053-fake",
-      "description": "## Inspiration\nWe wanted to improve open science for students.\n\n## What it does\nA demo for table scheduling — project #53.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [],
-      "builtWith": [
-        "svelte",
-        "deno",
-        "turso",
-        "drizzle"
-      ],
-      "university": "Carnegie Mellon",
-      "optInPrizes": [
-        "[MLH] Best .Tech Domain Name - Desktop Microphone",
-        "YC x HackTech - YC Interview",
-        "[MLH] Best Use of Gemma 4 - Google Swag Kits"
-      ],
-      "prizeNames": [
-        "[MLH] Best .Tech Domain Name",
-        "YC x HackTech",
-        "[MLH] Best Use of Gemma 4"
-      ],
-      "table": 2,
-      "slotStart": "12:10",
-      "slotEnd": "12:20"
+      "slotStart": "10:50",
+      "slotEnd": "11:00"
     },
     {
       "number": 55,
-      "title": "Vector Relay",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099056-fake",
-      "description": "## Inspiration\nWe wanted to improve sustainability for students.\n\n## What it does\nA demo for table scheduling — project #56.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "title": "Ionic Pulse",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099044-fake",
+      "description": "## Inspiration\nWe wanted to improve health literacy for students.\n\n## What it does\nA demo for table scheduling — project #44.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
       "videoUrl": "",
       "tryItUrls": [
-        "https://example.com/demo-56"
+        "https://example.com/demo-44"
       ],
       "builtWith": [
         "python",
@@ -1601,51 +1605,23 @@
         "react",
         "postgresql"
       ],
-      "university": "UC Berkeley",
+      "university": "Carnegie Mellon",
       "optInPrizes": [
-        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
         "Sideshift x HackTech - Cash Prize + Interview",
-        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones"
+        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones",
+        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard"
       ],
       "prizeNames": [
-        "Cybersecurity/Safety",
         "Sideshift x HackTech",
-        "[MLH] Best Use of Auth0 AI Agents"
+        "[MLH] Best Use of Auth0 AI Agents",
+        "Cybersecurity/Safety"
       ],
-      "table": 3,
-      "slotStart": "12:10",
-      "slotEnd": "12:20"
+      "table": 5,
+      "slotStart": "10:50",
+      "slotEnd": "11:00"
     },
     {
       "number": 56,
-      "title": "Lunar Relay",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099001-fake",
-      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #1.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [],
-      "builtWith": [
-        "react",
-        "node.js",
-        "supabase",
-        "tailwind"
-      ],
-      "university": "MIT",
-      "optInPrizes": [
-        "Best Use of AI - Mac Mini with Apple M4 chip",
-        "IFM x Hacktech - Best Use of K2 Think V2",
-        "[MLH] Best Use of Solana - Ledger Nano S Plus"
-      ],
-      "prizeNames": [
-        "Best Use of AI",
-        "IFM x Hacktech",
-        "[MLH] Best Use of Solana"
-      ],
-      "table": 4,
-      "slotStart": "12:10",
-      "slotEnd": "12:20"
-    },
-    {
-      "number": 57,
       "title": "Hyper Cortex",
       "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099052-fake",
       "description": "## Inspiration\nWe wanted to improve health literacy for students.\n\n## What it does\nA demo for table scheduling — project #52.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
@@ -1670,45 +1646,72 @@
         "Best \"Not so sexy\"",
         "Listen Labs x HackTech: Simulate Humanity"
       ],
-      "table": 1,
-      "slotStart": "12:20",
-      "slotEnd": "12:30"
+      "table": 6,
+      "slotStart": "10:50",
+      "slotEnd": "11:00"
+    },
+    {
+      "number": 57,
+      "title": "Nimbus Pulse",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099024-fake",
+      "description": "## Inspiration\nWe wanted to improve sustainability for students.\n\n## What it does\nA demo for table scheduling — project #24.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "tryItUrls": [
+        "https://example.com/demo-24"
+      ],
+      "builtWith": [
+        "next.js",
+        "typescript",
+        "vercel",
+        "tailwind"
+      ],
+      "university": "UT Austin",
+      "optInPrizes": [
+        "Ironsite x HackTech - Cash Prize",
+        "[MLH] Best Use of ElevenLabs - Wireless Earbuds",
+        "Loveable x HackTech - Best use of Lovable"
+      ],
+      "prizeNames": [
+        "Ironsite x HackTech",
+        "[MLH] Best Use of ElevenLabs",
+        "Loveable x HackTech"
+      ],
+      "table": 7,
+      "slotStart": "10:50",
+      "slotEnd": "11:00"
     },
     {
       "number": 58,
-      "title": "Ionic Pulse",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099014-fake",
-      "description": "## Inspiration\nWe wanted to improve creative coding for students.\n\n## What it does\nA demo for table scheduling — project #14.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
-      "videoUrl": "",
-      "tryItUrls": [
-        "https://example.com/demo-14"
-      ],
+      "title": "Chrono Cortex",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099057-fake",
+      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #57.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "tryItUrls": [],
       "builtWith": [
-        "python",
-        "fastapi",
-        "react",
-        "postgresql"
+        "flutter",
+        "firebase",
+        "mapbox"
       ],
-      "university": "Georgia Tech",
+      "university": "UCLA",
       "optInPrizes": [
-        "[MLH] Best Use of Auth0 AI Agents - Wireless Headphones",
-        "Cybersecurity/Safety - NuPhy Air 75 v3 Keyboard",
-        "Sideshift x HackTech - Cash Prize + Interview"
+        "Best Creativity - Logitech MX MASTER 4 Mice",
+        "Palohouse x HackTech - 10-day stay @ Palo Alto Hackerhouse + $20k SAFE investment",
+        "[MLH] Best Use of Backboard - Tile Essentials Pack"
       ],
       "prizeNames": [
-        "[MLH] Best Use of Auth0 AI Agents",
-        "Cybersecurity/Safety",
-        "Sideshift x HackTech"
+        "Best Creativity",
+        "Palohouse x HackTech",
+        "[MLH] Best Use of Backboard"
       ],
-      "table": 2,
-      "slotStart": "12:20",
-      "slotEnd": "12:30"
+      "table": 8,
+      "slotStart": "10:50",
+      "slotEnd": "11:00"
     },
     {
       "number": 59,
-      "title": "Ionic Pulse",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099059-fake",
-      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #59.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "title": "Vector Relay",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099011-fake",
+      "description": "## Inspiration\nWe wanted to improve public transit for students.\n\n## What it does\nA demo for table scheduling — project #11.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
       "videoUrl": "",
       "tryItUrls": [],
       "builtWith": [
@@ -1717,57 +1720,56 @@
         "turso",
         "drizzle"
       ],
-      "university": "Georgia Tech",
+      "university": "UC Berkeley",
       "optInPrizes": [
-        "YC x HackTech - YC Interview",
         "[MLH] Best Use of Gemma 4 - Google Swag Kits",
-        "[MLH] Best .Tech Domain Name - Desktop Microphone"
+        "[MLH] Best .Tech Domain Name - Desktop Microphone",
+        "YC x HackTech - YC Interview"
       ],
       "prizeNames": [
-        "YC x HackTech",
         "[MLH] Best Use of Gemma 4",
-        "[MLH] Best .Tech Domain Name"
+        "[MLH] Best .Tech Domain Name",
+        "YC x HackTech"
       ],
-      "table": 3,
-      "slotStart": "12:20",
-      "slotEnd": "12:30"
+      "table": 9,
+      "slotStart": "10:50",
+      "slotEnd": "11:00"
     },
     {
       "number": 60,
-      "title": "Sonic Vessel",
-      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099028-fake",
-      "description": "## Inspiration\nWe wanted to improve health literacy for students.\n\n## What it does\nA demo for table scheduling — project #28.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
+      "title": "Lunar Relay",
+      "devpostUrl": "https://hacktech-by-caltech-2026.devpost.com/submissions/1099001-fake",
+      "description": "## Inspiration\nWe wanted to improve on-campus life for students.\n\n## What it does\nA demo for table scheduling — project #1.\n\n## How we built it\nHacked together in a weekend with lots of coffee.",
       "videoUrl": "",
-      "tryItUrls": [
-        "https://example.com/demo-28"
-      ],
+      "tryItUrls": [],
       "builtWith": [
-        "vue",
-        "nuxt",
-        "planetscale",
-        "clerk"
+        "react",
+        "node.js",
+        "supabase",
+        "tailwind"
       ],
       "university": "MIT",
       "optInPrizes": [
-        "Listen Labs x HackTech: Simulate Humanity",
-        "[MLH] Best Use of Vultr - Portable Screens",
-        "Best \"Not so sexy\" - WHOOP 5.0 One Health and Fitness Tracker"
+        "Best Use of AI - Mac Mini with Apple M4 chip",
+        "IFM x Hacktech - Best Use of K2 Think V2",
+        "[MLH] Best Use of Solana - Ledger Nano S Plus"
       ],
       "prizeNames": [
-        "Listen Labs x HackTech: Simulate Humanity",
-        "[MLH] Best Use of Vultr",
-        "Best \"Not so sexy\""
+        "Best Use of AI",
+        "IFM x Hacktech",
+        "[MLH] Best Use of Solana"
       ],
-      "table": 4,
-      "slotStart": "12:20",
-      "slotEnd": "12:30"
+      "table": 10,
+      "slotStart": "10:50",
+      "slotEnd": "11:00"
     }
   ],
   "meta": {
     "eligibleCount": 60,
-    "totalMinutes": 180,
-    "slotsPerTable": 18,
-    "minTables": 4,
-    "numTables": 4
+    "totalMinutes": 120,
+    "slotsFromWindow": 12,
+    "slotsPerTable": 6,
+    "minTables": 10,
+    "numTables": 10
   }
 }
