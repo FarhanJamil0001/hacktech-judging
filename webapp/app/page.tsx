@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { readSchedule } from "@/lib/data";
 import { SearchAndFilter } from "@/components/SearchAndFilter";
 import { JudgingInfo } from "@/components/JudgingInfo";
@@ -50,14 +49,8 @@ export default async function HomePage() {
             No schedule has been published yet.
           </p>
           <p className="mt-2 text-htech-text-muted">
-            Organizers can publish a schedule from the Admin page.
+            Check back once organizers have published the schedule.
           </p>
-          <Link
-            href="/admin"
-            className="mt-5 inline-block rounded bg-htech-orange px-5 py-2 font-display text-sm text-htech-bg hover:bg-htech-orange-light"
-          >
-            Go to Admin
-          </Link>
         </div>
       )}
     </div>

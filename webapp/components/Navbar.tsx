@@ -25,12 +25,6 @@ export function Navbar() {
           >
             Tables
           </Link>
-          <Link
-            href="/admin"
-            className="rounded border border-htech-orange-border px-3 py-1 text-htech-orange hover:bg-htech-orange hover:text-htech-bg transition"
-          >
-            Admin
-          </Link>
         </div>
       </div>
     </nav>
