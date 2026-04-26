@@ -5,6 +5,8 @@ export type ScheduleConfig = {
   pitchMinutes: number;
   eligibleStatuses: string[];
   numTables: number | null;   // null = auto
+  /** When set (>=1), never assign more than this many projects per table, even if the time window could fit more. */
+  maxProjectsPerTable?: number | null;
   randomSeed: string;         // string so we can pass any user-provided seed
 };
 
@@ -32,6 +34,8 @@ export type Schedule = {
   meta?: {
     eligibleCount: number;
     totalMinutes: number;
+    /** Slots that fit in the time window before any per-table cap. */
+    slotsFromWindow?: number;
     slotsPerTable: number;
     minTables: number;
     numTables: number;

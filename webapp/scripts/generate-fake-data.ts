@@ -208,6 +208,7 @@ async function main() {
     pitchMinutes: 5,
     eligibleStatuses: ["Submitted (Gallery/Visible)"],
     numTables: null,
+    maxProjectsPerTable: null,
     randomSeed: "fake-60",
   };
   const schedule = generateSchedule(scheduleRows, config);

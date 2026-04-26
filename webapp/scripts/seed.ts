@@ -10,6 +10,7 @@
  *   SEED_PITCH minutes  default 5
  *   SEED_SEED  string   default 42
  *   SEED_TABLES integer (omit for auto)
+ *   SEED_MAX_PER_TABLE  max projects per table (omit = time window only)
  */
 
 import { promises as fs } from "fs";
@@ -49,6 +50,12 @@ async function main() {
     pitchMinutes: Number(process.env.SEED_PITCH || 5),
     eligibleStatuses: ["Submitted (Gallery/Visible)"],
     numTables: process.env.SEED_TABLES ? Number(process.env.SEED_TABLES) : null,
+    maxProjectsPerTable: (() => {
+      const raw = process.env.SEED_MAX_PER_TABLE;
+      if (raw == null || raw === "") return null;
+      const n = Number(raw);
+      return Number.isFinite(n) && n >= 1 ? n : null;
+    })(),
     randomSeed: process.env.SEED_SEED || "42",
   };
 

@@ -10,6 +10,7 @@ const DEFAULT_CONFIG: ScheduleConfig = {
   pitchMinutes: 5,
   eligibleStatuses: ["Submitted (Gallery/Visible)"],
   numTables: null,
+  maxProjectsPerTable: null,
   randomSeed: "42",
 };
 
@@ -168,6 +169,22 @@ function AdminPanel() {
 
         <label className="flex flex-col gap-1">
           <span className="font-display text-xs uppercase tracking-wider text-htech-text-muted">
+            Max projects per table (blank = only time window limits)
+          </span>
+          <input
+            type="number"
+            min={1}
+            value={config.maxProjectsPerTable ?? ""}
+            onChange={(e) => {
+              const v = e.target.value;
+              update("maxProjectsPerTable", v === "" ? null : Number(v));
+            }}
+            className="rounded border border-htech-orange-border/40 bg-htech-bg-3 px-3 py-2 text-htech-text-strong focus:border-htech-orange focus:outline-none"
+          />
+        </label>
+
+        <label className="flex flex-col gap-1">
+          <span className="font-display text-xs uppercase tracking-wider text-htech-text-muted">
             Random seed
           </span>
           <input
@@ -287,7 +304,15 @@ function PreviewPane({ schedule }: { schedule: Schedule }) {
       <h2 className="font-display text-xl text-htech-text-strong">Preview</h2>
       <p className="mt-1 text-sm text-htech-text-muted">
         {schedule.meta?.eligibleCount} eligible projects · {schedule.meta?.numTables} tables ·{" "}
-        {schedule.meta?.slotsPerTable} slots/table · {schedule.prizeCatalog.length} prize chips
+        {schedule.meta?.slotsPerTable} max projects/table (effective)
+        {schedule.meta?.slotsFromWindow != null &&
+        schedule.meta.slotsFromWindow !== schedule.meta.slotsPerTable ? (
+          <span className="text-htech-text-muted">
+            {" "}
+            — time window alone would allow {schedule.meta.slotsFromWindow}
+          </span>
+        ) : null}{" "}
+        · {schedule.prizeCatalog.length} prize chips
       </p>
       <div className="mt-4 max-h-96 overflow-auto rounded border border-htech-orange-border/40 bg-htech-bg-3">
         <table className="w-full text-left text-sm">

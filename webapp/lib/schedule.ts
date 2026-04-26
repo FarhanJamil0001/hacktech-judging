@@ -51,10 +51,25 @@ export function generateSchedule(
     throw new ScheduleError(`slotMinutes must be > 0`);
   }
 
-  const slotsPerTable = Math.floor(totalMinutes / config.slotMinutes);
-  if (slotsPerTable === 0) {
+  const slotsFromWindow = Math.floor(totalMinutes / config.slotMinutes);
+  if (slotsFromWindow === 0) {
     throw new ScheduleError(
       `Window too short — ${totalMinutes} min cannot fit one ${config.slotMinutes}-min slot.`
+    );
+  }
+
+  const cap = config.maxProjectsPerTable;
+  if (cap != null) {
+    if (!Number.isFinite(cap) || cap < 1) {
+      throw new ScheduleError("maxProjectsPerTable must be >= 1 when set");
+    }
+  }
+  const effectiveSlotsPerTable =
+    cap != null && cap > 0 ? Math.min(slotsFromWindow, Math.floor(cap)) : slotsFromWindow;
+
+  if (effectiveSlotsPerTable === 0) {
+    throw new ScheduleError(
+      `No capacity per table — check maxProjectsPerTable vs slot/window settings.`
     );
   }
 
@@ -78,7 +93,7 @@ export function generateSchedule(
   }
 
   const n = shuffled.length;
-  const minTables = Math.ceil(n / slotsPerTable);
+  const minTables = Math.ceil(n / effectiveSlotsPerTable);
   let numTables: number;
   if (config.numTables === null || config.numTables === undefined) {
     numTables = minTables;
@@ -86,9 +101,9 @@ export function generateSchedule(
     if (config.numTables < 1) {
       throw new ScheduleError(`numTables must be >= 1`);
     }
-    if (config.numTables * slotsPerTable < n) {
+    if (config.numTables * effectiveSlotsPerTable < n) {
       throw new ScheduleError(
-        `numTables=${config.numTables} too small. ${n} projects × ${config.slotMinutes} min need at least ${minTables} tables in this ${totalMinutes}-min window.`
+        `numTables=${config.numTables} too small. ${n} projects need at least ${minTables} tables with at most ${effectiveSlotsPerTable} project(s) per table (time window and max-per-table cap).`
       );
     }
     numTables = config.numTables;
@@ -146,7 +161,8 @@ export function generateSchedule(
     meta: {
       eligibleCount: n,
       totalMinutes,
-      slotsPerTable,
+      slotsFromWindow,
+      slotsPerTable: effectiveSlotsPerTable,
       minTables,
       numTables,
     },
