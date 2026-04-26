@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { readSchedule } from "@/lib/data";
 import { SearchAndFilter } from "@/components/SearchAndFilter";
+import { JudgingInfo } from "@/components/JudgingInfo";
 
 export const dynamic = "force-dynamic";
 
@@ -18,8 +19,10 @@ export default async function HomePage() {
           <span className="text-htech-text-strong">Judging Expo</span>
         </h1>
         <p className="mt-3 max-w-2xl text-lg text-htech-text">
-          Find your project number, judging table, and pitch time. Search
-          for your project below or filter by prize category.
+          Your <strong className="text-htech-text-strong">project number</strong> is the # shown
+          on this site. Use it to find your{" "}
+          <strong className="text-htech-text-strong">expo time slot and table</strong> at the
+          Bechtel Center—search or filter by prize below.
         </p>
         {schedule.config ? (
           <p className="mt-2 text-sm text-htech-text-muted">
@@ -32,10 +35,15 @@ export default async function HomePage() {
       </header>
 
       {hasData ? (
-        <SearchAndFilter
-          projects={schedule.projects}
-          prizeCatalog={schedule.prizeCatalog}
-        />
+        <>
+          <div className="mt-6">
+            <JudgingInfo judgingEndTime={schedule.config?.endTime} />
+          </div>
+          <SearchAndFilter
+            projects={schedule.projects}
+            prizeCatalog={schedule.prizeCatalog}
+          />
+        </>
       ) : (
         <div className="mt-10 rounded-xl border border-htech-orange-border/40 bg-htech-bg-2 p-10 text-center">
           <p className="font-display text-xl text-htech-text-strong">

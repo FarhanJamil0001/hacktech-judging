@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import { findProject, readSchedule } from "@/lib/data";
+import { isMlhPrizeText } from "@/lib/judging";
 import { ScheduleSlot } from "@/components/ScheduleSlot";
 
 export const dynamic = "force-dynamic";
@@ -26,13 +27,18 @@ export default async function ProjectPage({
         ← All projects
       </Link>
 
-      <header className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-baseline sm:gap-6">
-        <span className="font-display text-5xl font-bold text-htech-orange">
-          #{project.number}
-        </span>
-        <h1 className="font-display text-3xl font-bold text-htech-text-strong sm:text-4xl">
-          {project.title}
-        </h1>
+      <header className="mt-4">
+        <p className="font-display text-xs uppercase tracking-wider text-htech-text-muted">
+          Project number
+        </p>
+        <div className="mt-1 flex flex-col gap-3 sm:flex-row sm:items-baseline sm:gap-6">
+          <span className="font-display text-5xl font-bold text-htech-orange">
+            #{project.number}
+          </span>
+          <h1 className="font-display text-3xl font-bold text-htech-text-strong sm:text-4xl">
+            {project.title}
+          </h1>
+        </div>
       </header>
 
       <div className="mt-6">
@@ -78,13 +84,6 @@ export default async function ProjectPage({
         ))}
       </div>
 
-      {project.university ? (
-        <p className="mt-6 text-sm text-htech-text-muted">
-          <span className="font-display uppercase tracking-wider">School</span>
-          <span className="ml-2 text-htech-text">{project.university}</span>
-        </p>
-      ) : null}
-
       {project.builtWith.length ? (
         <div className="mt-3 flex flex-wrap items-center gap-2">
           <span className="font-display text-xs uppercase tracking-wider text-htech-text-muted">
@@ -102,16 +101,7 @@ export default async function ProjectPage({
       ) : null}
 
       {project.optInPrizes.length ? (
-        <div className="mt-6">
-          <h2 className="font-display text-sm uppercase tracking-wider text-htech-text-muted">
-            Opted-in prizes
-          </h2>
-          <ul className="mt-2 space-y-1 text-sm text-htech-text">
-            {project.optInPrizes.map((p) => (
-              <li key={p}>• {p}</li>
-            ))}
-          </ul>
-        </div>
+        <OptInSections prizes={project.optInPrizes} endTime={schedule.config?.endTime} />
       ) : null}
 
       {project.description ? (
@@ -125,6 +115,55 @@ export default async function ProjectPage({
         </section>
       ) : null}
     </article>
+  );
+}
+
+function OptInSections({
+  prizes,
+  endTime,
+}: {
+  prizes: string[];
+  endTime?: string | null;
+}) {
+  const mlh = prizes.filter((p) => isMlhPrizeText(p));
+  const sponsor = prizes.filter((p) => !isMlhPrizeText(p));
+  const end = endTime ? ` before judging ends` : " any time before judging ends";
+
+  return (
+    <div className="mt-6 space-y-6">
+      {sponsor.length > 0 ? (
+        <div>
+          <h2 className="font-display text-sm uppercase tracking-wider text-htech-text-muted">
+            Sponsor prizes
+          </h2>
+          <p className="mt-1 text-sm text-htech-text">
+            Go to the <strong className="text-htech-text-strong">sponsor tables</strong> in
+            person{end} to be judged for these.
+          </p>
+          <ul className="mt-2 space-y-1 text-sm text-htech-text">
+            {sponsor.map((p) => (
+              <li key={p}>• {p}</li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
+      {mlh.length > 0 ? (
+        <div>
+          <h2 className="font-display text-sm uppercase tracking-wider text-htech-text-muted">
+            MLH tracks
+          </h2>
+          <p className="mt-1 text-sm text-htech-text">
+            Judging for <span className="whitespace-nowrap">[MLH]</span> categories happens{" "}
+            <strong className="text-htech-text-strong">online</strong> (not at tables in the room).
+          </p>
+          <ul className="mt-2 space-y-1 text-sm text-htech-text">
+            {mlh.map((p) => (
+              <li key={p}>• {p}</li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
+    </div>
   );
 }
 

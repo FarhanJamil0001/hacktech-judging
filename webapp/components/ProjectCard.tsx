@@ -7,14 +7,19 @@ export function ProjectCard({ project }: { project: Project }) {
       href={`/projects/${project.number}`}
       className="group flex flex-col gap-3 rounded-xl border border-htech-orange-border/30 bg-htech-bg-2 p-5 shadow-htech transition hover:border-htech-orange hover:shadow-htech-glow"
     >
-      <div className="flex items-start justify-between gap-3">
-        <div className="flex items-baseline gap-3">
-          <span className="font-display text-3xl font-bold text-htech-orange">
-            #{project.number}
-          </span>
-          <span className="font-display text-xl text-htech-text-strong line-clamp-2">
-            {project.title}
-          </span>
+      <div className="flex flex-col gap-1">
+        <span className="font-display text-xs uppercase tracking-wider text-htech-text-muted">
+          Project number
+        </span>
+        <div className="flex items-start justify-between gap-3">
+          <div className="flex items-baseline gap-3">
+            <span className="font-display text-3xl font-bold text-htech-orange">
+              #{project.number}
+            </span>
+            <span className="font-display text-xl text-htech-text-strong line-clamp-2">
+              {project.title}
+            </span>
+          </div>
         </div>
       </div>
       <div className="flex flex-wrap items-center gap-2 text-sm">
@@ -24,9 +29,6 @@ export function ProjectCard({ project }: { project: Project }) {
         <span className="rounded border border-htech-orange-border/60 bg-htech-bg-3 px-2 py-0.5 text-htech-text">
           {project.slotStart}–{project.slotEnd}
         </span>
-        {project.university ? (
-          <span className="text-htech-text-muted">{project.university}</span>
-        ) : null}
       </div>
       {project.prizeNames.length ? (
         <div className="flex flex-wrap gap-1.5">

@@ -14,11 +14,18 @@ export function SearchAndFilter({ projects, prizeCatalog }: Props) {
   const [activePrizes, setActivePrizes] = useState<Set<string>>(new Set());
 
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
+    const qRaw = query.trim();
+    const q = qRaw.toLowerCase();
     return projects.filter((p) => {
       if (q) {
-        const hay = `${p.title} ${p.builtWith.join(" ")} ${p.university}`.toLowerCase();
-        if (!hay.includes(q)) return false;
+        const asNum = qRaw.replace(/^#/, "").trim();
+        const onlyDigits = /^\d+$/.test(asNum);
+        if (onlyDigits && p.number === Number(asNum)) {
+          // exact project number
+        } else {
+          const hay = `${p.title} ${p.builtWith.join(" ")} #${p.number} ${p.number}`.toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
       }
       if (activePrizes.size > 0) {
         const hit = p.prizeNames.some((n) => activePrizes.has(n));
@@ -48,7 +55,7 @@ export function SearchAndFilter({ projects, prizeCatalog }: Props) {
         <input
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search by project name, tech, or school…"
+          placeholder="Search by project number, name, or tech…"
           className="w-full rounded border border-htech-orange-border/40 bg-htech-bg-3 px-4 py-3 font-body text-htech-text-strong placeholder:text-htech-text-muted focus:border-htech-orange focus:outline-none"
         />
         {prizeCatalog.length > 0 ? (

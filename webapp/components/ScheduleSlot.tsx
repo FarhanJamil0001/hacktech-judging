@@ -1,3 +1,5 @@
+import { BECHTEL_MAPS_URL, VENUE_NAME } from "@/lib/judging";
+
 type Props = {
   table: number;
   slotStart: string;
@@ -11,6 +13,19 @@ export function ScheduleSlot({ table, slotStart, slotEnd, pitchMinutes, classNam
     <div
       className={`inline-flex flex-col gap-1 rounded-lg border border-htech-orange-border bg-htech-bg-2 px-4 py-3 ${className ?? ""}`}
     >
+      <div className="flex items-baseline gap-3">
+        <span className="font-display text-xs uppercase tracking-wider text-htech-text-muted">
+          Where
+        </span>
+        <a
+          href={BECHTEL_MAPS_URL}
+          target="_blank"
+          rel="noreferrer"
+          className="font-display text-sm font-semibold text-htech-orange hover:underline"
+        >
+          {VENUE_NAME}
+        </a>
+      </div>
       <div className="flex items-baseline gap-3">
         <span className="font-display text-xs uppercase tracking-wider text-htech-text-muted">
           Table

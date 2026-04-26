@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { projectsForTable, readSchedule, tableIds } from "@/lib/data";
+import { BECHTEL_MAPS_URL, VENUE_NAME } from "@/lib/judging";
 
 export const dynamic = "force-dynamic";
 
@@ -49,12 +50,25 @@ export default async function TablePage({ params }: { params: { id: string } }) 
         </p>
       ) : null}
 
+      <p className="mt-3 text-sm text-htech-text">
+        Expo time-slot judging at the{" "}
+        <a
+          href={BECHTEL_MAPS_URL}
+          target="_blank"
+          rel="noreferrer"
+          className="text-htech-orange hover:underline"
+        >
+          {VENUE_NAME}
+        </a>{" "}
+        (see map).
+      </p>
+
       <div className="mt-6 overflow-hidden rounded-xl border border-htech-orange-border/40 bg-htech-bg-2">
         <table className="w-full text-left">
           <thead className="bg-htech-bg-3 font-display text-xs uppercase tracking-wider text-htech-text-muted">
             <tr>
               <th className="px-4 py-3">Time</th>
-              <th className="px-4 py-3">#</th>
+              <th className="px-4 py-3">Project #</th>
               <th className="px-4 py-3">Project</th>
               <th className="px-4 py-3">Devpost</th>
             </tr>

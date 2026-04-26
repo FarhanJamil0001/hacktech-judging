@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "tsx scripts/seed.ts"
+    "seed": "tsx scripts/seed.ts",
+    "generate-fake": "tsx scripts/generate-fake-data.ts"
   },
   "dependencies": {
     "@octokit/rest": "^21.0.2",
